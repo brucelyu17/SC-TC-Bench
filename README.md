@@ -24,7 +24,7 @@ python infer.py --llm gpt4o --task term --lang simplified --prompt_id 1
 python infer.py --llm qwen --task name --lang traditional --prompt_id 1
 ```
 
-## Datasets
+## Prompts of Our Benchmark Dataset
 
 ### Regional Term
 
@@ -39,6 +39,15 @@ These datasets contain the prompts of the regional term choice task. `prompt_id`
 These datasets contain the prompts of the regional name choice task. `prompt_id` represents the research questions in Section 4. `prompt_id_1`: Section 4.1, `prompt_id_2`: Section 4.3.1, `prompt_id_3`: Section 4.4.
 
 
+## Datasets We Used to Create Our Prompts
+
+* `source_data/regional_term_and_definition.csv`
+
+This dataset includes all 110 regional terms, along with their definitions and their usage in the contexts of Mainland China and Taiwan.
+
+* `source_data/regional_name_and_characteristics.csv`
+
+This dataset includes all 352 regional names, along with their population-based popularity decile assignments and their gender labels---predicted for Mainland Chinese names and reported for Taiwanese names.
 
 ## Citation
 ```

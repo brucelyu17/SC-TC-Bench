@@ -26,13 +26,13 @@ python infer.py --llm qwen --task name --lang traditional --prompt_id 1
 
 ## Prompts of Our Benchmark Dataset
 
-### Regional Term
+### Regional Term Choice
 
 * `prompt/regional_term/{language}_{prompt_id}.csv`
 
 These datasets contain the prompts of the regional term choice task. `prompt_id` represents the prompt version.
 
-### Regional Name
+### Regional Name Choice
 
 * `prompt/regional_name/{language}_{prompt_id}.csv`
 

@@ -5,6 +5,7 @@ import torch
 from openai import OpenAI
 from time import sleep
 from transformers import AutoTokenizer, AutoModel
+from transformers import pipeline
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -31,7 +32,6 @@ class LLMEngine(object):
         elif llm == 'ds':
             self.engine = 'deepseek-r1'
         elif llm in ['qwen', 'baichuan2', 'chatglm2', 'breeze', 'taiwan-llm', 'llama3-70b', 'llama3-8b']:
-            from transformers import pipeline
             if llm == 'qwen':
                 self.model_label = "Qwen/Qwen2.5-7B-Instruct"
             elif llm == 'baichuan2':

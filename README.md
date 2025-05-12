@@ -13,15 +13,15 @@ Accepted for publication in [FAccT 2025](https://facctconference.org/2025/)
 
 ### Regional Term
 
-* `prompt/regional_term/{language}_ver_{variant_id}.csv`
+* `prompt/regional_term/{language}_{prompt_id}.csv`
 
-These datasets contain the prompts of the regional term choice task.
+These datasets contain the prompts of the regional term choice task. `prompt_id` represents the prompt version.
 
 ### Regional Name
 
-* `prompt/regional_name/{language}_rq_{rq_id}.csv`
+* `prompt/regional_name/{language}_{prompt_id}.csv`
 
-These datasets contain the prompts of the regional name choice task. `rq_id` represents the research questions in Section 4. `rq_1`: Section 4.1, `rq_2`: Section 4.3.1, `rq_3`: Section 4.4.
+These datasets contain the prompts of the regional name choice task. `prompt_id` represents the research questions in Section 4. `prompt_id_1`: Section 4.1, `prompt_id_2`: Section 4.3.1, `prompt_id_3`: Section 4.4.
 
 
 

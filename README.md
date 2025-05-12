@@ -17,6 +17,12 @@ Accepted for publication in [FAccT 2025](https://facctconference.org/2025/)
 
 These datasets contain the prompts of the regional term choice task.
 
+### Regional Name
+
+* `prompt/regional_name/{language}_rq_{rq_id}.csv`
+
+These datasets contain the prompts of the regional name choice task. `rq_id` represents the research questions in Section 4. `rq_1`: Section 4.1, `rq_2`: Section 4.3.1, `rq_3`: Section 4.4.
+
 
 
 ## Citation

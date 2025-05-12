@@ -1,0 +1,353 @@
+name,count,decile,region,gender
+王秀英,241189,0,Mainland China,female
+李秀英,240742,0,Mainland China,female
+张秀英,231114,0,Mainland China,female
+王秀兰,163712,0,Mainland China,female
+李桂英,150978,0,Mainland China,female
+王桂英,146354,0,Mainland China,female
+张秀兰,146279,0,Mainland China,female
+张桂英,142832,0,Mainland China,female
+王玉兰,142066,0,Mainland China,female
+李秀兰,140833,0,Mainland China,female
+张玉兰,135296,0,Mainland China,female
+王桂兰,134275,0,Mainland China,female
+陈秀英,131958,0,Mainland China,female
+张桂兰,127187,0,Mainland China,female
+李桂兰,124888,0,Mainland China,female
+王秀珍,116735,0,Mainland China,female
+李玉兰,116184,1,Mainland China,female
+刘秀英,115846,1,Mainland China,female
+刘桂英,114512,1,Mainland China,female
+杨秀英,114136,1,Mainland China,female
+李秀珍,107992,1,Mainland China,female
+刘玉兰,107631,1,Mainland China,female
+刘桂兰,99840,1,Mainland China,female
+王玉梅,98299,1,Mainland China,female
+王玉珍,98065,1,Mainland China,female
+张凤英,97223,1,Mainland China,female
+李凤英,96873,1,Mainland China,female
+王玉英,93799,1,Mainland China,female
+张玉梅,92586,1,Mainland China,female
+王凤英,92505,1,Mainland China,female
+张玉英,92390,1,Mainland China,female
+李红梅,92231,2,Mainland China,female
+张秀珍,90112,2,Mainland China,female
+王建华,89148,2,Mainland China,male
+李玉梅,89112,2,Mainland China,female
+李建华,88029,2,Mainland China,male
+张建华,87524,2,Mainland China,male
+张玉珍,85224,2,Mainland China,female
+张兰英,83959,2,Mainland China,female
+王兰英,80731,2,Mainland China,female
+李玉珍,80572,2,Mainland China,female
+陈桂英,80295,2,Mainland China,female
+王建国,78782,2,Mainland China,male
+王建军,77950,2,Mainland China,male
+王淑珍,77681,2,Mainland China,female
+李春梅,77453,2,Mainland China,female
+王海燕,77307,3,Mainland China,female
+李冬梅,76777,3,Mainland China,female
+王秀荣,76208,3,Mainland China,female
+李桂珍,75634,3,Mainland China,female
+王秀云,75415,3,Mainland China,female
+王桂荣,75397,3,Mainland China,female
+王志强,75143,3,Mainland China,male
+张红梅,74520,3,Mainland China,female
+刘凤英,74451,3,Mainland China,female
+李玉英,74414,3,Mainland China,female
+王秀梅,74402,3,Mainland China,female
+王丽娟,74225,3,Mainland China,female
+张婷婷,73975,3,Mainland China,female
+王婷婷,73680,3,Mainland China,female
+王玉华,73434,3,Mainland China,female
+张建国,73419,4,Mainland China,male
+李兰英,73413,4,Mainland China,female
+王桂珍,73249,4,Mainland China,female
+李秀梅,73221,4,Mainland China,female
+陈玉兰,73104,4,Mainland China,female
+张玉华,72895,4,Mainland China,female
+刘玉梅,72773,4,Mainland China,female
+李建军,71395,4,Mainland China,male
+刘玉珍,71141,4,Mainland China,female
+李建国,70799,4,Mainland China,male
+李桂荣,70269,4,Mainland China,female
+陈秀兰,70040,4,Mainland China,female
+张建军,69822,4,Mainland China,male
+李秀荣,69797,4,Mainland China,female
+张秀梅,69475,4,Mainland China,female
+李雪梅,69393,5,Mainland China,female
+张海燕,69359,5,Mainland China,female
+王淑兰,68960,5,Mainland China,female
+李志强,68853,5,Mainland China,male
+李婷婷,68553,5,Mainland China,female
+张秀荣,68346,5,Mainland China,female
+刘建华,68298,5,Mainland China,male
+王丽丽,68259,5,Mainland China,female
+李海燕,68163,5,Mainland China,female
+张桂荣,68151,5,Mainland China,female
+刘秀兰,67275,5,Mainland China,female
+张志强,67271,5,Mainland China,male
+李秀云,67024,5,Mainland China,female
+李秀芳,66746,5,Mainland China,female
+张丽丽,66369,5,Mainland China,female
+张秀云,66249,6,Mainland China,female
+王淑英,66082,6,Mainland China,female
+王春梅,66038,6,Mainland China,female
+王红梅,65884,6,Mainland China,female
+李玉华,65710,6,Mainland China,female
+李桂芳,65646,6,Mainland China,female
+黄秀英,65086,6,Mainland China,female
+刘玉英,64842,6,Mainland China,female
+李淑珍,64842,6,Mainland China,female
+王秀芳,64411,6,Mainland China,female
+王丽华,64150,6,Mainland China,female
+王丹丹,64069,6,Mainland China,female
+王桂香,63959,6,Mainland China,female
+张桂珍,63383,6,Mainland China,female
+王淑华,63375,6,Mainland China,female
+张秀芳,63056,7,Mainland China,female
+张桂芳,62681,7,Mainland China,female
+张丽娟,62678,7,Mainland China,female
+吴秀英,62432,7,Mainland China,female
+李桂香,61863,7,Mainland China,female
+杨秀兰,61656,7,Mainland China,female
+王秀华,61595,7,Mainland China,female
+李桂芝,61306,7,Mainland China,female
+王桂芳,60701,7,Mainland China,female
+张春梅,60327,7,Mainland China,female
+王冬梅,59986,7,Mainland China,female
+李秀华,59910,7,Mainland China,female
+李丹丹,59875,7,Mainland China,female
+刘玉华,59735,7,Mainland China,female
+马秀英,59709,7,Mainland China,female
+张丽华,59665,8,Mainland China,female
+张淑珍,59490,8,Mainland China,female
+王桂芝,59158,8,Mainland China,female
+张秀华,59129,8,Mainland China,female
+陈建华,58276,8,Mainland China,male
+杨桂英,57862,8,Mainland China,female
+李淑英,57770,8,Mainland China,female
+陈玉英,57697,8,Mainland China,female
+杨秀珍,57619,8,Mainland China,female
+孙秀英,57612,8,Mainland China,female
+刘桂珍,56753,8,Mainland China,female
+刘建军,56648,8,Mainland China,male
+张淑英,56633,8,Mainland China,female
+李红霞,56541,8,Mainland China,female
+赵秀英,56482,8,Mainland China,female
+王建平,56221,9,Mainland China,male
+张桂芝,56165,9,Mainland China,female
+王桂花,55558,9,Mainland China,female
+刘婷婷,55384,9,Mainland China,female
+张淑兰,55061,9,Mainland China,female
+陈桂兰,54687,9,Mainland China,female
+李淑华,54643,9,Mainland China,female
+刘建国,54345,9,Mainland China,male
+李桂花,54307,9,Mainland China,female
+王凤兰,54228,9,Mainland China,female
+李淑兰,54074,9,Mainland China,female
+陈秀珍,54060,9,Mainland China,female
+刘红梅,54046,9,Mainland China,female
+刘桂荣,53916,9,Mainland China,female
+刘志强,53912,9,Mainland China,male
+陈凤英,53551,9,Mainland China,female
+陳怡君,5925,0,Taiwan,female
+林怡君,4579,0,Taiwan,female
+陳冠宇,4017,0,Taiwan,male
+陳淑芬,3830,0,Taiwan,female
+張雅婷,3640,0,Taiwan,female
+陳建宏,3600,0,Taiwan,male
+陳美玲,3301,0,Taiwan,female
+陳怡如,3197,0,Taiwan,female
+陳美惠,3177,0,Taiwan,female
+陳淑惠,3010,0,Taiwan,female
+林淑惠,2989,0,Taiwan,female
+張家豪,2941,0,Taiwan,male
+陳俊宏,2878,0,Taiwan,male
+陳淑貞,2837,0,Taiwan,female
+陳淑娟,2760,1,Taiwan,female
+陳麗華,2733,1,Taiwan,female
+林佳慧,2575,1,Taiwan,female
+林淑芬,2540,1,Taiwan,female
+陳冠廷,2487,0,Taiwan,male
+林建宏,2438,0,Taiwan,male
+陳美華,2416,1,Taiwan,female
+陳怡靜,2344,1,Taiwan,female
+陳柏翰,2341,0,Taiwan,male
+楊雅婷,2335,1,Taiwan,female
+陳淑華,2265,1,Taiwan,female
+陳柏宇,2260,0,Taiwan,male
+陳怡伶,2251,1,Taiwan,female
+陳彥廷,2218,0,Taiwan,male
+林麗華,2210,1,Taiwan,female
+張雅惠,2196,2,Taiwan,female
+陳淑美,2165,2,Taiwan,female
+陳秀美,2154,2,Taiwan,female
+陳信宏,2151,0,Taiwan,male
+林俊宏,2146,1,Taiwan,male
+陳韻如,2140,2,Taiwan,female
+陳怡婷,2090,2,Taiwan,female
+黃淑芬,2083,2,Taiwan,female
+張雅雯,2078,2,Taiwan,female
+陳淑玲,2075,2,Taiwan,female
+陳思妤,2074,2,Taiwan,female
+黃鈺婷,2039,2,Taiwan,female
+陳麗娟,2020,3,Taiwan,female
+林美惠,2017,3,Taiwan,female
+林美玲,1987,3,Taiwan,female
+林淑娟,1967,3,Taiwan,female
+林秀美,1961,3,Taiwan,female
+陳志豪,1936,1,Taiwan,male
+陳雅玲,1929,3,Taiwan,female
+張家銘,1922,1,Taiwan,male
+陳美玉,1918,3,Taiwan,female
+陳秀琴,1901,3,Taiwan,female
+許雅婷,1864,3,Taiwan,female
+王俊傑,1842,1,Taiwan,male
+黃淑惠,1838,3,Taiwan,female
+劉怡君,1836,4,Taiwan,female
+黃俊傑,1824,1,Taiwan,male
+陳冠霖,1806,1,Taiwan,male
+張淑惠,1797,4,Taiwan,female
+陳志明,1788,1,Taiwan,male
+陳美珠,1788,4,Taiwan,female
+陳秀英,1782,4,Taiwan,female
+陳俊宇,1743,1,Taiwan,male
+陳雅惠,1735,4,Taiwan,female
+陳麗珠,1730,4,Taiwan,female
+黃馨儀,1730,4,Taiwan,female
+林佳蓉,1730,4,Taiwan,female
+林淑華,1724,4,Taiwan,female
+陳怡安,1720,4,Taiwan,female
+林淑貞,1710,5,Taiwan,female
+陳美雲,1708,5,Taiwan,female
+王怡婷,1688,5,Taiwan,female
+林美華,1684,5,Taiwan,female
+林冠宇,1668,1,Taiwan,male
+林冠廷,1661,1,Taiwan,male
+陳秀鳳,1658,5,Taiwan,female
+陳惠美,1650,5,Taiwan,female
+陳思穎,1628,5,Taiwan,female
+張淑芬,1623,5,Taiwan,female
+陳建志,1618,2,Taiwan,male
+陳惠玲,1617,5,Taiwan,female
+陳麗卿,1613,5,Taiwan,female
+林欣怡,1608,6,Taiwan,female
+黃淑貞,1589,6,Taiwan,female
+黃美玲,1584,6,Taiwan,female
+陳威廷,1583,2,Taiwan,male
+李淑芬,1577,6,Taiwan,female
+陳俊傑,1571,2,Taiwan,male
+陳美麗,1571,6,Taiwan,female
+林秀英,1564,6,Taiwan,female
+陳雅婷,1555,6,Taiwan,female
+陳麗美,1550,6,Taiwan,female
+黃美惠,1545,6,Taiwan,female
+李佳蓉,1534,6,Taiwan,female
+李麗華,1522,7,Taiwan,female
+林志明,1517,2,Taiwan,male
+林雅惠,1515,7,Taiwan,female
+陳品妤,1510,7,Taiwan,female
+林欣儀,1508,7,Taiwan,female
+陳秀蘭,1507,7,Taiwan,female
+鄭雅文,1506,7,Taiwan,female
+陳慧玲,1484,7,Taiwan,female
+黃郁婷,1471,7,Taiwan,female
+陳俊良,1464,2,Taiwan,male
+林彥廷,1448,2,Taiwan,male
+林芳如,1442,7,Taiwan,female
+陳麗如,1439,7,Taiwan,female
+陳宥蓁,1434,8,Taiwan,female
+黃美華,1432,8,Taiwan,female
+黃淑娟,1430,8,Taiwan,female
+王淑芬,1429,8,Taiwan,female
+黃麗華,1428,8,Taiwan,female
+陳冠宏,1425,2,Taiwan,male
+李淑惠,1424,8,Taiwan,female
+陳姿穎,1410,8,Taiwan,female
+林雅婷,1410,8,Taiwan,female
+林麗娟,1405,8,Taiwan,female
+林美玉,1397,8,Taiwan,female
+張淑娟,1396,9,Taiwan,female
+林宜蓁,1394,9,Taiwan,female
+黃詩涵,1388,9,Taiwan,female
+陳素貞,1384,9,Taiwan,female
+李怡萱,1382,9,Taiwan,female
+張美玲,1382,9,Taiwan,female
+林秀琴,1376,9,Taiwan,female
+吳佩珊,1375,9,Taiwan,female
+林秀玲,1368,9,Taiwan,female
+張淑貞,1365,9,Taiwan,female
+李俊賢,1352,2,Taiwan,male
+吳宗翰,1346,2,Taiwan,male
+陳柏宏,1335,2,Taiwan,male
+陳建宇,1332,3,Taiwan,male
+張育誠,1312,3,Taiwan,male
+林哲宇,1308,3,Taiwan,male
+張家瑋,1302,3,Taiwan,male
+陳建良,1301,3,Taiwan,male
+吳俊賢,1291,3,Taiwan,male
+陳柏安,1288,3,Taiwan,male
+陳柏霖,1283,3,Taiwan,male
+張凱翔,1271,3,Taiwan,male
+陳建成,1270,3,Taiwan,male
+李宗翰,1267,4,Taiwan,male
+吳承翰,1263,4,Taiwan,male
+李承翰,1257,4,Taiwan,male
+張哲瑋,1235,4,Taiwan,male
+許家豪,1235,4,Taiwan,male
+陳威宇,1231,4,Taiwan,male
+陳柏諺,1230,4,Taiwan,male
+陳建銘,1226,4,Taiwan,male
+陳俊廷,1224,4,Taiwan,male
+林信宏,1220,4,Taiwan,male
+張家榮,1219,5,Taiwan,male
+張哲維,1213,5,Taiwan,male
+陳建安,1189,5,Taiwan,male
+李承恩,1179,5,Taiwan,male
+陳志成,1174,5,Taiwan,male
+蔡承翰,1158,5,Taiwan,male
+林志鴻,1153,5,Taiwan,male
+吳承恩,1127,5,Taiwan,male
+張志豪,1125,5,Taiwan,male
+陳志忠,1124,5,Taiwan,male
+蔡宗翰,1121,6,Taiwan,male
+陳奕安,1118,6,Taiwan,male
+陳俊男,1115,6,Taiwan,male
+陳正雄,1097,6,Taiwan,male
+陳志偉,1075,6,Taiwan,male
+林子傑,1061,6,Taiwan,male
+林明輝,1060,6,Taiwan,male
+陳志銘,1060,6,Taiwan,male
+陳彥霖,1045,6,Taiwan,male
+李建興,1036,6,Taiwan,male
+陳志宏,1035,7,Taiwan,male
+陳俊豪,1031,7,Taiwan,male
+陳柏睿,1024,7,Taiwan,male
+楊宗翰,1019,7,Taiwan,male
+黃柏翰,1015,7,Taiwan,male
+陳俊吉,1015,7,Taiwan,male
+陳彥宇,1014,7,Taiwan,male
+林子翔,1008,7,Taiwan,male
+陳俊佑,1004,7,Taiwan,male
+李俊毅,996,7,Taiwan,male
+林建成,990,8,Taiwan,male
+林明德,986,8,Taiwan,male
+陳俊雄,985,8,Taiwan,male
+林冠宏,984,8,Taiwan,male
+陳文雄,984,8,Taiwan,male
+林正雄,969,8,Taiwan,male
+陳文彬,969,8,Taiwan,male
+陳昱安,968,8,Taiwan,male
+劉冠廷,965,8,Taiwan,male
+王俊凱,959,8,Taiwan,male
+蔡承恩,959,9,Taiwan,male
+劉建宏,954,9,Taiwan,male
+陳志強,946,9,Taiwan,male
+吳俊毅,943,9,Taiwan,male
+陳俊銘,939,9,Taiwan,male
+林建志,930,9,Taiwan,male
+楊承翰,928,9,Taiwan,male
+黃柏翔,925,9,Taiwan,male
+陳宥廷,924,9,Taiwan,male
+林建良,921,9,Taiwan,male

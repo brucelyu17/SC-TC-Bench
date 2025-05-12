@@ -9,6 +9,16 @@
 Accepted for publication in [FAccT 2025](https://facctconference.org/2025/)
 
 
+## Datasets
+
+### Regional Term
+
+* `prompt/regional_term/{language}_ver_{variant_id}.csv`
+
+These datasets contain the prompts of the regional term choice task.
+
+
+
 ## Citation
 ```
 @inproceedings{sctcbench-facct25,

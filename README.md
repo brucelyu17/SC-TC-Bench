@@ -10,6 +10,19 @@ Accepted for publication in [FAccT 2025](https://facctconference.org/2025/)
 
 Will also be presented at [IC2S2 2025](https://www.ic2s2-2025.org/)
 
+## Example Usage
+
+* Prompt GPT-4o in Simplified Chinese to perform the regional term choice task
+
+```bash
+python infer.py --llm gpt4o --task term --lang simplified --prompt_id 1
+```
+
+* Prompt Qwen in Traditional Chinese to perform the regional name choice task
+
+```bash
+python infer.py --llm qwen --task name --lang traditional --prompt_id 1
+```
 
 ## Datasets
 

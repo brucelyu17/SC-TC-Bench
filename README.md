@@ -52,16 +52,16 @@ This dataset includes all 352 regional names, along with their population-based 
 ## Citation
 ```
 @inproceedings{sctcbench-facct25,
-title={Characterizing Bias: Benchmarking Large Language Models in Simplified versus Traditional Chinese},
-author={Lyu, Hanjia and Luo, Jiebo and Kang, Jian and Koenecke, Allison},
-year={2025},
-isbn = {9798400714825},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3715275.3732182},
-doi = {10.1145/3715275.3732182},
-booktitle = {Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency},
-location = {Athens, Greece},
-series = {FAccT '25}
+    title={Characterizing Bias: Benchmarking Large Language Models in Simplified versus Traditional Chinese},
+    author={Lyu, Hanjia and Luo, Jiebo and Kang, Jian and Koenecke, Allison},
+    year={2025},
+    isbn = {9798400714825},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3715275.3732182},
+    doi = {10.1145/3715275.3732182},
+    booktitle = {Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency},
+    location = {Athens, Greece},
+    series = {FAccT '25}
 }
 ```

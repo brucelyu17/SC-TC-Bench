@@ -24,6 +24,12 @@ python infer.py --llm gpt4o --task term --lang simplified --prompt_id 1
 python infer.py --llm qwen --task name --lang traditional --prompt_id 1
 ```
 
+* Prompt Llama3-70b in English to perform the regional name choice task
+
+```bash
+python infer.py --llm llama3-70b --task name --lang english --prompt_id 1
+```
+
 ## Prompts of Our Benchmark Dataset
 
 ### Regional Term Choice
@@ -43,7 +49,7 @@ These datasets contain the prompts of the regional name choice task. `prompt_id`
 
 * `source_data/regional_term_and_definition.csv`
 
-This dataset includes all 110 regional terms, along with their definitions and their usage in the contexts of Mainland China and Taiwan.
+This dataset includes all 110 regional terms, along with their definitions and their usage in the contexts of Mainland China and Taiwan region.
 
 * `source_data/regional_name_and_characteristics.csv`
 

@@ -108,11 +108,7 @@ def construct_path(file_type, task, lang, prompt_id=None, llm=None, sub_file_typ
     if task not in ['term', 'name']:
         raise NotImplementedError
     if file_type in ['response']:
-        if sub_file_type:
-            return f'{file_type}/regional_{task}/{sub_file_type}/{llm}_{lang}_{prompt_id}.csv'
-        else:
-            return f'{file_type}/regional_{task}/{llm}_{lang}_{prompt_id}.csv'
-    
+        return f'{file_type}/regional_{task}/{sub_file_type}/{llm}_{lang}_{prompt_id}.csv'    
     elif file_type in ['prompt']:
         return f'{file_type}/regional_{task}/{lang}_{prompt_id}.csv'
 
@@ -130,3 +126,17 @@ def process_df(file_type, task, lang, prompt_id=None, llm=None, action=None, df_
         return pd.read_csv(path)
     else:
         raise NotImplementedError
+    
+def postprocess_response(df, model, lang, ver):
+    if model == 'llama3-70b' and lang == 'simplified' and ver == 2:
+        for i in range(len(df)):
+            if len(df['correct'][i]) > 1:
+                df.loc[i, 'correct'] = '1'
+    elif model == 'llama3-8b' and lang == 'traditional' and ver == 2:
+        for  i in range(len(df)):
+            if df['correct'][i] == '1. 0':
+                df.loc[i, 'correct'] = '1'
+    elif model == 'llama3-8b' and lang == 'simplified' and ver == 3:
+        for i in range(len(df)):
+            if "python" in df['correct'][i]:
+                df.loc[i, 'correct'] = '1'

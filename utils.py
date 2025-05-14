@@ -49,7 +49,7 @@ class LLMEngine(object):
                 self.model_label = "meta-llama/Meta-Llama-3-8B-Instruct"
             if self.llm in ['chatglm2']:
                 self.tokenizer = AutoTokenizer.from_pretrained(self.model_label, trust_remote_code=True)
-                self.engine = AutoModel.from_pretrained(self.model_label, device_map="auto", torch_dtype=torch.bfloat16, trust_remote_code=True, do_sample=False).eval()
+                self.engine = AutoModel.from_pretrained(self.model_label, device_map="auto", torch_dtype=torch.bfloat16, trust_remote_code=True, temperature=self.temperature).eval()
             else:
                 self.engine = pipeline("text-generation", model=self.model_label, model_kwargs={"torch_dtype": torch.bfloat16}, device_map="auto", trust_remote_code=True)
 
@@ -68,7 +68,7 @@ class LLMEngine(object):
                 response_str, _ = self.engine.chat(self.tokenizer, full_prompt, history=[])
                 return response_str
             else:
-                response_str = self.engine(full_prompt, do_sample=False, pad_token_id=self.engine.tokenizer.eos_token_id, max_new_tokens=self.max_new_tokens)
+                response_str = self.engine(full_prompt, temperature=self.temperature, pad_token_id=self.engine.tokenizer.eos_token_id, max_new_tokens=self.max_new_tokens)
                 if self.llm in ['baichuan2']:
                     return response_str[0]['generated_text'].replace(f'{prompt}\n\n','')
                 else:
@@ -76,6 +76,7 @@ class LLMEngine(object):
 
     def get_hyperpara(self):
         self.max_new_tokens = 512
+        self.temperature = 0.1
 
 
 def prompt_with_openai(full_prompt, chat_model):

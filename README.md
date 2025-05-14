@@ -10,6 +10,13 @@ Accepted for publication in [FAccT 2025](https://facctconference.org/2025/)
 
 Will also be presented at [IC2S2 2025](https://www.ic2s2-2025.org/)
 
+## Table of Contents
+- [Example Usage](#example-usage)
+- [Prompts of Our Benchmark Dataset](#prompts-of-our-benchmark-dataset)
+- [Datasets We Used to Create Our Prompts](#datasets-we-used-to-create-our-prompts)
+- [Reproducibility](#reproducibility)
+- [Citation](#citation)
+
 ## Example Usage
 
 * Prompt GPT-4o in Simplified Chinese to perform the regional term choice task

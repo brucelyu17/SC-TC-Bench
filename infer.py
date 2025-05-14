@@ -34,7 +34,6 @@ if __name__ == '__main__':
             df_response = pd.DataFrame({'response':response_list})
             process_df(file_type='response', sub_file_type='raw', task=args.task, lang=args.lang, prompt_id=args.prompt_id, llm=args.llm, action='save', df_to_save=df_response)
             
-        break
     df_response = pd.DataFrame({'response':response_list})
     process_df(file_type='response', sub_file_type='raw', task=args.task, lang=args.lang, prompt_id=args.prompt_id, llm=args.llm, action='save', df_to_save=df_response)
     print(args, 'done')

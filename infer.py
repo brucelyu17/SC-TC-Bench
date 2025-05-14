@@ -18,10 +18,7 @@ if __name__ == '__main__':
     df_prompt = process_df(file_type='prompt', task=args.task, lang=args.lang, prompt_id=args.prompt_id)
 
     if args.resume:
-        if args.task == 'name':
-            df_response = process_df(file_type='response', sub_file_type='raw', task=args.task, lang=args.lang, prompt_id=args.prompt_id, llm=args.llm, action='load')
-        elif args.task == 'term':
-            df_response = process_df(file_type='response', task=args.task, lang=args.lang, prompt_id=args.prompt_id, llm=args.llm, action='load')
+        df_response = process_df(file_type='response', sub_file_type='raw', task=args.task, lang=args.lang, prompt_id=args.prompt_id, llm=args.llm, action='load')
         response_list = df_response['response'].tolist()
     else:
         response_list = []
@@ -35,15 +32,9 @@ if __name__ == '__main__':
             print(f"{idx} done")
             print(response_str)
             df_response = pd.DataFrame({'response':response_list})
-            if args.task == 'name':
-                process_df(file_type='response', sub_file_type='raw', task=args.task, lang=args.lang, prompt_id=args.prompt_id, llm=args.llm, action='save', df_to_save=df_response)
-            elif args.task == 'term':
-                process_df(file_type='response', task=args.task, lang=args.lang, prompt_id=args.prompt_id, llm=args.llm, action='save', df_to_save=df_response)
-    
+            process_df(file_type='response', sub_file_type='raw', task=args.task, lang=args.lang, prompt_id=args.prompt_id, llm=args.llm, action='save', df_to_save=df_response)
+            
+        break
     df_response = pd.DataFrame({'response':response_list})
-    if args.task == 'name':
-        process_df(file_type='response', sub_file_type='raw', task=args.task, lang=args.lang, prompt_id=args.prompt_id, llm=args.llm, action='save', df_to_save=df_response)
-    elif args.task == 'term':
-        process_df(file_type='response', task=args.task, lang=args.lang, prompt_id=args.prompt_id, llm=args.llm, action='save', df_to_save=df_response)
-    
+    process_df(file_type='response', sub_file_type='raw', task=args.task, lang=args.lang, prompt_id=args.prompt_id, llm=args.llm, action='save', df_to_save=df_response)
     print(args, 'done')

@@ -55,6 +55,31 @@ This dataset includes all 110 regional terms, along with their definitions and t
 
 This dataset includes all 352 regional names, along with their population-based popularity decile assignments and their gender labels---predicted for Mainland Chinese names and reported for Taiwanese names.
 
+
+## Reproducibility
+
+* Figure 2
+```bash
+python -m reproducibility.fig_2 --prompt_id 1
+```
+
+* Figure 5
+```bash
+python -m reproducibility.fig_2 --prompt_id 1 --no_gpt
+```
+
+* Figure 7
+```bash
+python -m reproducibility.fig_2 --prompt_id 2
+```
+
+* Figure 8
+```bash
+python -m reproducibility.fig_2 --prompt_id 3
+```
+
+
+
 ## Citation
 ```
 @inproceedings{sctcbench-facct25,

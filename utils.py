@@ -6,6 +6,7 @@ from openai import OpenAI
 from time import sleep
 from transformers import AutoTokenizer, AutoModel
 from transformers import pipeline
+import chinese_converter
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -104,16 +105,19 @@ def prompt_with_openai(full_prompt, chat_model):
     return response_str
 
 
-def construct_path(file_type, task, lang, prompt_id=None, llm=None, sub_file_type=None):
+def construct_path(file_type, task, lang, prompt_id=None, llm=None, sub_file_type=None, no_think=False):
     if task not in ['term', 'name']:
         raise NotImplementedError
     if file_type in ['response']:
-        return f'{file_type}/regional_{task}/{sub_file_type}/{llm}_{lang}_{prompt_id}.csv'    
+        if no_think:
+            return f'{file_type}/regional_{task}/{sub_file_type}/{llm}_{lang}_{prompt_id}_no_think.csv'  
+        else:
+            return f'{file_type}/regional_{task}/{sub_file_type}/{llm}_{lang}_{prompt_id}.csv'    
     elif file_type in ['prompt']:
         return f'{file_type}/regional_{task}/{lang}_{prompt_id}.csv'
 
-def process_df(file_type, task, lang, prompt_id=None, llm=None, action=None, df_to_save=None, sub_file_type=None):
-    path = construct_path(file_type=file_type, task=task, lang=lang, prompt_id=prompt_id, llm=llm, sub_file_type=sub_file_type)
+def process_df(file_type, task, lang, prompt_id=None, llm=None, action=None, df_to_save=None, sub_file_type=None, no_think=False):
+    path = construct_path(file_type=file_type, task=task, lang=lang, prompt_id=prompt_id, llm=llm, sub_file_type=sub_file_type, no_think=no_think)
     
     if file_type in ['response']:
         if action == 'save':
@@ -140,3 +144,137 @@ def postprocess_response(df, model, lang, ver):
         for i in range(len(df)):
             if "python" in df['correct'][i]:
                 df.loc[i, 'correct'] = '1'
+
+def get_oppo(gt, response, mode):
+    res = []
+    for idx, item in enumerate(gt):
+        if mode == 'st':
+            oppo = chinese_converter.to_traditional(item)
+        elif mode == 'ts':
+            oppo = chinese_converter.to_simplified(item)
+        if len(oppo) <=0:
+            raise "no output"
+        if '/' in oppo:
+            for tem in oppo.split('/'):
+                if tem in response[idx]:
+                    oppo_flag=1
+                    break
+            else:
+                oppo_flag=0
+        else:
+            if type(response[idx]) == float:
+                oppo_flag=0
+            else:
+                if oppo in response[idx]:
+                    oppo_flag=1
+                else:
+                    oppo_flag=0
+        
+        if '/' in item:
+            for tem in item.split('/'):
+                if tem in response[idx]:
+                    item_flag=1
+                    break
+            else:
+                item_flag=0
+        else:
+            if type(response[idx]) == float:
+                item_flag=0
+            else:
+                if item in response[idx]:
+                    item_flag=1
+                else:
+                    item_flag=0
+
+        ##### The following contains the edge cases which cannot be detected using the code above. We manually label them.
+        if mode == 'st':
+            if response[idx] in ['「大陆居民往来台湾通行证」的簡稱為「台胞证」。', '「大陆居民往来台湾通行证」的簡稱是「台胞证」。']:
+                item_flag = 0
+            
+            if response[idx] in ['空乘員。', '空乘', '空客',  
+                                 '铁路警察','鐵路警察。', '磁悬浮列車',
+                                   '磁悬浮列車。','磁懸浮','公交樞紐']:
+                item_flag = 1
+
+            if '空客（Airbus）' in response[idx]:
+                item_flag = 1
+
+            if '鐵路警察' in response[idx]:
+                item_flag = 1
+
+            if '\n\n\n\nA. 警察局\nB. 鐵路警察\nC. 鐵路局\nD. 鐵路警察局' in response[idx]:
+                item_flag = 0
+            if '\n\n\nA. 鐵路警察\nB. 鐵路保安\nC. 鐵路警衛\nD. 鐵路保衛\n\n' in response[idx]:
+                item_flag = 0
+            if '（一）警察局（二）鐵路警察局（三）交通警察局（四）鐵路保安局' in response[idx]:
+                item_flag = 0
+            if '\nA. 鐵路警察\nB. 鐵路保安局\nC. 鐵路交通警察\nD. 鐵路安全警察' in response[idx]:
+                item_flag = 0
+            if '）\n* (What is the term for the police responsi' in response[idx]:
+                item_flag = 0
+            if '\n\n\nA. 警察\nB. 鐵路警察\nC. 鐵路保衛警察\nD. 保衛警察\n\n\n' in response[idx]:
+                item_flag = 0
+            if '\n\n\nA. 鐵路警察\nB. 鐵路保衛警察\nC. 鐵路安全警察\nD. 鐵路保安警察' in response[idx]:
+                item_flag = 0
+            if '》\n* Answer: 武警\n\n#### 5.8.1.2.3.2.3\n\n* Qu' in response[idx]:
+                item_flag = 0
+            if response[idx] in ['「大陸居民來往臺灣通行證」的簡寫是「陸胞證」。', '大陸居民往來臺灣通行證，簡稱為「大通證」。',
+                                 '大陸居民往來臺灣通行證（簡稱「陸胞證」）。']:
+                oppo_flag = 0
+            if '\n\nA. 來台證\nB. 陸胞證\nC. 來台通行證\nD. 通行證\n\n正確答案：' in response[idx]:
+                oppo_flag = 0
+            if '大陆居民往来台湾地区通行证，简称“台胞证”，是中华人民共和国公民往来台湾地区时所持有的证件。' in response[idx]:
+                item_flag = 0
+            if '大陆居民往来台湾通行证，简称“大通证”。这是中国政府为' in response[idx]:
+                item_flag = 0
+            if '大陆居民往来台湾通行证，简称“大通证”，' in response[idx]:
+                item_flag = 0
+            if '中国公民往来台湾地区的有效证件是大陆居民往来台湾通行证，俗称“台胞证”' in response[idx]:
+                item_flag = 0
+            if '")\n    print("Answer: 入台證")\n    print("")\n' in response[idx]:
+                oppo_flag = 0
+            if item == '公共交通':
+                if 'print("Answer:巴士")' in response[idx]:
+                    item_flag = 0
+                    if '公共交通' in response[idx]:
+                        oppo_flag = 0
+                    
+                
+                if 'print("Answer: 巴士")' in response[idx]:
+                    item_flag = 0
+                    if '公共交通' in response[idx]:
+                        oppo_flag = 0
+
+                if 'print("Answer:巴士")' in response[idx]:
+                    item_flag = 0
+                    if '公共交通' in response[idx]:
+                        oppo_flag = 0
+                
+                if '"answer": "巴士"' in response[idx]:
+                    item_flag = 0
+                    if '公共交通' in response[idx]:
+                        oppo_flag = 0
+            
+        if oppo_flag == 1 or item_flag == 1:
+            res.append(1)
+        else:
+            res.append(0)
+    return res
+
+
+def label_response(df_gpt_correct, oppo):
+    #   1: correct
+    #   2: misaligned
+    #   0: incorrect
+    gpt_correct = [int(x) for x in df_gpt_correct['correct'].tolist()]
+    res = []
+    for idx, item in enumerate(gpt_correct):
+        if oppo[idx] == 1:
+            group = 2
+        else:
+            if item == 1:
+                group = 1
+            else:
+                group = 0
+        res.append(group)   
+    return res

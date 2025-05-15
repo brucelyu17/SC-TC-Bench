@@ -286,3 +286,16 @@ def compute_percentage(df):
     t = len(df[df['region'] == 0]) / len(df)
     na = len(df[df['region'] == -1]) / len(df)
     return mc, t, na
+
+
+def collect_response_details(df, df_gt):
+    counts = df.groupby(['gt', 'label']).size().unstack(fill_value=0)
+
+    for label in [0, 1, 2]:
+        if label not in counts.columns:
+            counts[label] = 0
+
+    counts['label_counts'] = counts[1].astype(str) + ',' + counts[2].astype(str) + ',' + counts[0].astype(str)
+    counts = counts[['label_counts']].reset_index()
+
+    return pd.merge(df_gt.loc[:109][['gt']], counts, on='gt')

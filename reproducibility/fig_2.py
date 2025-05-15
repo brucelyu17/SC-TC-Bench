@@ -1,6 +1,6 @@
 import argparse
 import pandas as pd
-from utils import process_df, postprocess_response, get_oppo, label_response
+from utils import process_df, postprocess_response, get_oppo, label_response, collect_response_details
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -79,9 +79,19 @@ if __name__ == '__main__':
 
             locals()[f's{i}'] += f'({(model_idx *0.2 + 0.1):.2f}, {val1:.2f}) ({(model_idx *0.2 + 0.1+0.05):.2f}, {val2:.2f}) '
 
+        res_df_s = collect_response_details(res_df_s[['gt', 'label']], df_s_prompt)
+        res_df_t = collect_response_details(res_df_t[['gt', 'label']], df_t_prompt)
+        overview_dict_s['gt'] = df_s_prompt.loc[:109]['gt'].tolist()
+        overview_dict_t['gt'] = df_t_prompt.loc[:109]['gt'].tolist()
+        overview_dict_s[model] = res_df_s['label_counts'].tolist()
+        overview_dict_t[model] = res_df_t['label_counts'].tolist()
+
     print(s1)
     print(s2)
     print(s0)
+
+    pd.DataFrame(overview_dict_s).to_csv(f'supplementary_data/regional_term/response_details_simplified_{args.prompt_id}.csv', index=False)
+    pd.DataFrame(overview_dict_t).to_csv(f'supplementary_data/regional_term/response_details_traditional_{args.prompt_id}.csv', index=False)
 
     """
     Note that the output is not directly a figure. Instead, the output is the source code for generating the figure in latex. 

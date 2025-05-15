@@ -127,7 +127,7 @@ source activate sc-tc-bench
 pip install -r requirements.txt
 ```
 
-* To run inference with ChtGLM2, install `transformers==4.40.0`
+* To run inference with ChatGLM2, install `transformers==4.40.0`
 
 
 ## Reproducibility

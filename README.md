@@ -101,7 +101,7 @@ These datasets contain the prompts of the regional name choice task. `prompt_id`
 
 * `source_data/regional_term_and_definition.csv`
 
-This dataset includes all 110 regional terms, along with their definitions and their usage in the contexts of Mainland China and Taiwan region.
+This dataset includes all 110 regional terms, along with their definitions and their usage in the contexts of Mainland China and Taiwan.
 
 * `source_data/regional_name_and_characteristics.csv`
 

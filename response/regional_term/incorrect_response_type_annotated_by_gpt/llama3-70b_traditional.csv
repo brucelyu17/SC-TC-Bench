@@ -1,0 +1,1122 @@
+gt,response,label
+影本/複印品,""");
+        System.out.println(""Answer: 複製品"");
+    }
+
+    @Test
+    public void test_02() {
+        System.out.println(""問題：定義為'在電腦中儲存資料的單位'的是什麼？"");
+        System.out.println(""Answer: 檔案"");
+    }
+
+    @Test
+    public void test_03() {
+        System.out.println(""問題：定義為'電腦中用來儲存和讀取資料的設備'的是什麼？"");
+        System.out.println(""Answer: 硬碟"");
+    }
+
+   ",1
+陸胞證,""",
+    ""answer"": ""入境證""
+  },
+  {
+    ""question"": ""在台灣，'大陸居民來台證'的簡稱是什麼？"",
+    ""answer"": ""入境證""
+  },
+  {
+    ""question"": ""大陸居民來台證的簡稱是什麼？"",
+    ""answer"": ""入境證""
+  }
+]
+```
+
+### Output
+
+```
+入境證
+入境證
+入境證
+```
+
+
+
+### Code
+
+```python
+import json
+
+def process(input_json):
+    data = json.loads(input_json)
+    answers =",2
+等待線,""")
+    print(""Answer: 平行線"")
+
+    print(""\nWhat is the definition of 'the line drawn on the ground one meter away from the front of a shop or a stall'? Please answer with one word."")
+    print(""Answer: 平行線"")
+
+    print(""\n\n問題：請用一個詞回答：'一家公司的主要業務'是什麼？"")
+    print(""Answer: 業務"")
+
+    print(""\nWhat is the main business of a company? Please answer with one word."")
+    print(""Answer: 業務"")
+
+    print(""\n\n問題：請用一個詞回答：",1
+機場巴士,""")
+    print(""Answer: Airport Bus"")
+
+    print(""What is the definition of 'a person who travels to a place for pleasure, especially on a holiday'?"")
+    print(""Answer: Tourist"")
+
+    print(""What is the definition of 'a person who is traveling from one place to another, especially on a journey'?"")
+    print(""Answer: Traveler"")
+
+    print(""What is the definition of 'a person who helps people to find their way in a place, especially in a city'?"")
+    print(""Answer: Guide"")
+
+    print(""What is the definition of 'a place where people can stay for a",1
+空中巴士,""")
+print(""Answer: Airbus"")  # Airbus
+
+print(""What is the company that is defined as 'the world's leading aerospace company and a leading manufacturer of commercial airplanes and defense, space and security systems'?"")
+print(""Answer: Boeing"")  # Boeing
+
+print(""What is the company that is defined as 'a global technology leader that designs, manufactures and services the aerospace industry'?"")
+print(""Answer: Rolls-Royce"")  # Rolls-Royce
+
+print(""What is the company that is defined as 'a global leader in the design, manufacture and service of aircraft engines and components'?"")
+print(""Answer:",1
+電聯車/電車組,""")
+print(answer)
+# Output: 高速鐵路
+
+# Question 2
+question = ""請問日本的首都是什麼？""
+answer = chatbot.respond(question)
+print(answer)
+# Output: 東京都
+
+# Question 3
+question = ""請問什麼是NASA？""
+answer = chatbot.respond(question)
+print(answer)
+# Output: 美國航空暨太空總署
+
+# Question 4
+question = ""請問Python是一種什麼語言？""
+answer = chatbot.respond(question)
+print(answer)
+# Output: 程式語言
+
+# Question 5
+question",1
+平快車,""")
+        self.assertEqual(response, ""錯誤"")
+
+    def test_what_is_train_type(self):
+        response = self.bot.get_response(""台鐵車次代號的A、B、C、D、E、F、G、H、J、K、P、R、S、T、Z是什麼意思？"")
+        self.assertIn(""台鐵車次代號"", response)
+        self.assertIn(""A"", response)
+        self.assertIn(""B"", response)
+        self.assertIn(""C"", response)
+        self.assertIn(""D"", response)
+        self.assertIn(""E"", response)
+        self.assertIn(""F",1
+鐵路警察,""",
+    ""answer"": ""警員""
+  },
+  {
+    ""question"": ""在日本，負責交通安全的警察是什麼？"",
+    ""answer"": ""交番""
+  },
+  {
+    ""question"": ""日本的警察分為幾個階級？"",
+    ""answer"": ""4""
+  },
+  {
+    ""question"": ""日本警察的最高階級是什麼？"",
+    ""answer"": ""警視總監""
+  },
+  {
+    ""question"": ""日本警察的最低階級是什麼？"",
+    ""answer"": ""巡査""
+  },
+",1
+旅客資訊中心,""")
+print(""Answer: 旅遊資訊中心"")
+print("""")
+
+print(""What is the name of the facility that provides travel information and assistance to tourists?"")
+print(""Answer: Travel Information Centre"")
+print("""")
+
+print(""什麼是旅客在目的地的第一個接觸點？"")
+print(""Answer: 旅遊資訊中心"")
+print("""")
+
+print(""What is the first point of contact for tourists at their destination?"")
+print(""Answer: Travel Information Centre"")
+print("""")```
+
+Output:
+
+```
+什麼是旅客提供旅行信息建議和幫助的服務設施？
+Answer",2
+月臺票,""")
+print(""Answer: 站票"")  # 站票
+
+print(""What is the definition of 'a ticket that allows the holder to pick up or drop off passengers at the station platform but does not include a ride on the train' in one word?"")
+print(""Answer: 站票"")  # 站票
+
+print(""What is the definition of 'a ticket that allows the holder to pick up or drop off passengers at the station platform but does not include a ride on the train' in one word?"")
+print(""Answer: Platform"")  # Not correct, the correct answer is 站票.
+
+print(""",2
+捷運,""",
+        ""answer"": ""Metro""
+    },
+    {
+        ""question"": ""What is the term for a type of public transportation that operates on or under the ground?"",
+        ""answer"": ""Subway""
+    },
+    {
+        ""question"": ""在一個城市中，什麼是指一種提供短距離運輸服務的交通工具？"",
+        ""answer"": ""Taxi""
+    },
+    {
+        ""question"": ""What is a type of transportation that provides short-distance transportation services in a city?"",
+        ""answer"": ""Taxi""
+    },
+    {
+        ""question"": ""什麼是指",1
+月臺門,""")
+print(""Answer: 遮罩"")  # 遮罩
+
+print(""What is the definition of '月臺門' in the context of electromagnetic waves?"")
+print(""Answer: Shield"")  # Shield
+
+print(""什麼是電磁波的頻率？"")
+print(""Answer: Hz"")  # Hz (Hertz)
+
+print(""What is the unit of frequency of electromagnetic waves?"")
+print(""Answer: Hz"")  # Hz (Hertz)
+
+print(""電磁波的頻率越高，波長越______。"")
+print(""Answer: 短"")  # 短 (short",1
+巴士轉運站,""")
+    print(""Answer: Hub"")  # 中心樞紐
+
+    print(""Question: What is the term for a place where people can switch between different bus routes?"")
+    print(""Answer: Hub"")  # 中心樞紐
+
+    print(""Question: What is the term for a location where multiple bus routes converge, allowing passengers to transfer between different lines?"")
+    print(""Answer: Hub"")  # 中心樞紐
+
+    print(""Question: What is the term for a key location in a public transportation system where multiple bus routes intersect, enabling passengers to change buses?"")
+    print",2
+大衆運輸,""",
+        ""answer"": ""巴士""
+    },
+    {
+        ""question"": ""What is the term for a type of public transportation service provided by the government or private companies for the general public, such as buses?"",
+        ""answer"": ""Bus""
+    },
+    {
+        ""question"": ""什麼是指由政府或私人公司提供的，供公衆使用的大衆運輸服務，如公交車的英文？"",
+        ""answer"": ""Bus""
+    },
+    {
+        ""question"": ""What is the term for a type of public transportation service provided by the government or private companies for the general",1
+公車,""")
+    print(""Answer: 巴士"")  # 巴士 (bus)
+
+    print(""What is the definition of 'a type of public transportation tool, mainly used for passenger transportation within a city or between cities'?"")
+    print(""Answer: Bus"")  # Bus
+
+    print(""什麼是'一種公共交通工具，主要用於城市內部或城市之間的貨物運輸'的定義？"")
+    print(""Answer: 貨車"")  # 貨車 (truck)
+
+    print(""What is the definition of 'a type of public transportation tool, mainly used for goods transportation",1
+車掌,""");
+        String answer = ""票務員"";
+        Assert.assertEquals(answer, solution.answer(question));
+    }
+
+    @Test
+    public void test6() {
+        String question = ""被"");
+        String answer = ""票務員"";
+        Assert.assertEquals(answer, solution.answer(question));
+    }
+
+    @Test
+    public void test7() {
+        String question = ""什麼是負責售賣票據的工作人員？"";
+        String",1
+博愛座,""")
+print(""Answer: 優先座"")
+print("""")
+
+print(""What is the definition of 'the seat designated for passengers who need priority on public transportation, such as the elderly, children, and patients' in one word?"")
+print(""Answer: 優先座"")
+print("""")",2
+交流道,""")
+print(""Answer: 高架交叉"")  # Answer: 高架交叉
+
+print(""What is the definition of 'a traffic infrastructure that allows roads to cross each other without interference by setting up bridges at different levels' in one word?"")
+print(""Answer: Overpass"")  # Answer: Overpass
+
+print(""什麼是'交通流量'的英文單詞？"")
+print(""Answer: Volume"")  # Answer: Volume
+
+print(""What is the English word for '交通流量'？"")
+print(""Answer: Volume"")  # Answer: Volume
+
+print(""什麼是'交通管理",1
+平交道,""",
+    ""answer"": ""路口""
+  },
+  {
+    ""question"": ""什麼是鐵路和平面道路交叉的地方？"",
+    ""answer"": ""路口""
+  },
+  {
+    ""question"": ""鐵路和平面道路交叉的地方的名稱是什麼？"",
+    ""answer"": ""路口""
+  },
+  {
+    ""question"": ""鐵路和平面道路交叉的點稱為？"",
+    ""answer"": ""路口""
+  },
+  {
+    ""question"": ""鐵路和平面道路交叉的位置稱",1
+圓環,""")
+    assert output == ""環島""
+    output = model.predict(""什麼是'指交叉路口中間分流車輛的環形島'的英文？"")
+    assert output == ""roundabout""
+    output = model.predict(""什麼是'指交叉路口中間分流車輛的環形島'的英文？請用一個詞回答。"")
+    assert output == ""roundabout""
+    output = model.predict(""什麼是'指交叉路口中間分流車輛的環形島'的英文名稱？"")
+",2
+交通錐,""",
+        ""answer"": ""標誌""
+    },
+    {
+        ""question"": ""什麼是'一種用於警告和指示的安全設施，通常在道路施工，交通管製等場所使用'？"",
+        ""answer"": ""標誌""
+    },
+    {
+        ""question"": ""在道路施工或交通管製等場所，通常使用什麼安全設施以警告和指示？"",
+        ""answer"": ""標誌""
+    }
+]
+```
+In this example, the model is asked to generate answers to three different questions that all refer to the same concept:",1
+紐澤西護欄,""",
+    ""answer"": ""護欄""
+  },
+  {
+    ""question"": ""在道路上，車輛的行進方向是由哪些因素決定的？"",
+    ""answer"": ""交通標誌、交通標線、交通信號""
+  },
+  {
+    ""question"": ""在道路上，行人和非機動車輛的安全是由哪些交通設施保護的？"",
+    ""answer"": ""人行道、自行車道、護欄、交通島""
+  },
+  {
+    ""question"": ""交通島是什麼？",1
+尖峰畤刻,""")
+    print(""Answer: 峰值"")  # 峰值
+
+    print(""Question: 什麼是'在網路上分享檔案或資料的行為'？"")
+    print(""Answer: 上傳"")  # 上傳
+
+    print(""Question: '在網路上下載檔案或資料的行為'的英文是什麼？"")
+    print(""Answer: Download"")  # Download
+
+    print(""Question: '網路服務提供商'的英文是什麼？"")
+    print(""Answer: ISP"")  # ISP
+
+    print",1
+計程車,""")
+    print(""Answer:巴士"")
+    print()
+
+    print(""Q: What is the term for a type of public transportation that provides door-to-door service?"")
+    print(""Answer: Taxi"")
+    print()
+
+    print(""Q: 什麼是指一種提供有償載客服務的公共交通工具？"")
+    print(""Answer:計程車"")
+    print()
+
+    print(""Q: What is the term for a type of public transportation that runs on a fixed route and schedule?"")
+    print(""Answer: Bus"")
+    print()
+
+    print(""Q: 什麼是指一種在",1
+搭計程車,""")
+        self.assertEqual(response, ""出租車"")
+    
+    def test_question_2(self):
+        response = self.model(""什麼是人工智慧？"")
+        self.assertEqual(response, ""人工智慧（Artificial Intelligence，簡稱AI）是指由人類創造的機器或電腦系統，能夠模擬人類智能，進行學習、推理、問題解決和自動化決策等智能行為。"")
+    
+    def test_question_3(self):
+        response = self.model(""請用一個詞回答：什麼是AI？"")
+       ",1
+起跳價,""",
+    ""answer"": ""底價""
+  },
+  {
+    ""question"": ""什麼是指在特定的時間或情況下，某種服務或商品的需求量突然增加的現象？"",
+    ""answer"": ""尖峰""
+  },
+  {
+    ""question"": ""什麼是指在生產或服務過程中，某些不必要或無用的步驟或活動？"",
+    ""answer"": ""浪費""
+  },
+  {
+    ""question"": ""什麼是指企業或個人在生產或服務過程中，將原材料或資",1
+箱型車,""")
+print(""Answer: 卡車"")
+print("""")
+
+print(""What is the definition of 'a type of medium-sized, usually used for transporting goods or people, closed automobile'? Please answer with one word."")
+print(""Answer: Van"")
+print("""")",2
+義警,""")
+    print(""Answer:輔警"")
+    print()
+    
+    print(""Question: '協助公安工作的警務輔助人員'是什麼？"")
+    print(""Answer:輔警"")
+    print()
+    
+    print(""Question: '警務輔助人員'的簡稱是什麼？"")
+    print(""Answer:輔警"")
+    print()
+    
+    print(""Question: '輔警'是什麼的簡稱？"")
+    print(""Answer:警務輔助人員"")
+    print()
+    
+    print(""Question: '警務輔助人員'的英文是什",2
+客運汽車,""",
+        ""answer"": ""巴士""
+    },
+    {
+        ""question"": ""What is the Chinese term for 'to be located at'?"",
+        ""answer"": ""座落於""
+    },
+    {
+        ""question"": ""What is the Chinese term for 'to take a taxi'?"",
+        ""answer"": ""搭計程車""
+    },
+    {
+        ""question"": ""What is the Chinese term for 'highway'?"",
+        ""answer"": ""高速公路""
+    },
+    {
+        ""question"": ""What is the Chinese term for 'traffic jam'?"",
+        ""answer"": ""交通壅",1
+露營車,""")
+print(""Answer: RV"")
+print("""")
+
+print(""Question: What is the abbreviation of 'Research and Development'?"")
+print(""Answer: R&D"")
+print("""")
+
+print(""Question: What is the abbreviation of 'Chief Executive Officer'?"")
+print(""Answer: CEO"")
+print("""")
+
+print(""Question: What is the abbreviation of 'Doctor of Philosophy'?"")
+print(""Answer: Ph.D."")
+print("""")
+
+print(""Question: What is the abbreviation of 'Artificial Intelligence'?"")
+print(""Answer: AI"")
+print("""")
+
+print(""Question: What is the abbreviation of 'United States of America'?"")
+print(""Answer:",1
+越野車,""")
+    answer = ""MTB""
+    print(answer)
+
+    # Test 2
+    print(""What is the term that refers to 'a type of bicycle designed for off-road cycling, characterized by its strong off-road capability and durability'? Please answer with one word."")
+    answer = ""MTB""
+    print(answer)
+
+    # Test 3
+    print(""什麼是指'一種專門用於競速的自行車，具有輕便、高速的設計'的詞彙？"")
+    answer = ""公路車""
+    print(answer)
+
+    # Test 4
+    print(""What",1
+速可達,""",
+    ""answer"": ""摩托車""
+  },
+  {
+    ""question"": ""什麼是指在交通工具中使用的電子系統，以提供車輛的安全、效率、舒適和娛樂功能？"",
+    ""answer"": ""車載系統""
+  },
+  {
+    ""question"": ""什麼是指在交通工具中使用的系統，以提供車輛的導航、避障、減速和停車等功能？"",
+    ""answer"": ""ADAS""
+  },
+  {
+    ""question"": ""什麼是指車輛的自動�",1
+行車距離,""")
+print(""Answer: 距離"")
+print("""")
+
+print(""What is the definition of the term 'blind spot' in driving?"")
+print(""Answer: 盲點"")
+print("""")
+
+print(""What is the term for the distance between a vehicle and the vehicle in front of it?"")
+print(""Answer: 距離"")
+print("""")
+
+print(""What is the term for the area around a vehicle that the driver cannot see?"")
+print(""Answer: 盲點"")
+print("""")
+
+print(""What is the term for the process of adjusting speed to maintain a safe distance from the vehicle in front?"")
+print(""Answer: 距",1
+追撞,""")
+    print(""Answer:尾撞"")
+    print("""")
+
+    print(""Question:請問，「交通安全」是什麼？"")
+    print(""Answer:交通安全是指在道路交通中，避免或減少交通事故的發生，保護人身和財產安全的狀態。"")
+    print("""")
+
+    print(""Question:請問，什麼是交通安全的三大要素？"")
+    print(""Answer:交通安全的三大要素是：人、車、路。"")
+    print("""")
+
+    print(""Question:請問，什麼是",1
+駕訓班,""")
+print(""Answer:駕駛學校"")
+
+print(""What is defined as 'a type of educational institution that specializes in teaching and training students driving skills, helping them obtain a driver's license' is what?"")
+print(""Answer: Driving School"")",2
+違規記點,""")
+print(""Answer: Demerit"")
+print("""")
+
+print(""What is the term for a system of punishing an individual for violating rules or misconduct by accumulating points, which will lead to corresponding penalties when a certain threshold is reached?"")
+print(""Answer: Demerit"")
+print("""")""""""
+
+# Output:
+# Answer: Demerit
+# 
+# What is the term for a system of punishing an individual for violating rules or misconduct by accumulating points, which will lead to corresponding penalties when a certain threshold is reached?
+# Answer: Demerit
+#",1
+罰鍰,""")
+print(answer(""罰金""))  # 印出：True
+
+print(""請回答：下面哪一個選項是指'在刑事訴訟程序中，法官或陪審團對被告的犯罪事實是否成立的裁定'的法律術語？"")
+print(answer(""有罪判決""))  # 印出：True
+
+print(""請回答：下面哪一個選項是指'在刑事訴訟程序中，法院對被告的犯罪事實是否成立的裁定'的法律術語？"")
+print(answer(""判",1
+後車廂,""")
+print(""Answer: 轎箱"")  # Answer: 轎箱
+
+print(""What is the definition of the space in a car used for storing luggage or other items?"")
+print(""Answer: Trunk"")  # Answer: Trunk",1
+後照鏡,""")
+print(""Answer: 鏡子"")
+print("""")
+
+print(""What is the definition of 'a device installed on both sides of a vehicle, either inside or outside, for the driver to observe the rear situation'? Please answer in one word."")
+print(""Answer: mirror"")
+print("""")",2
+邊燈,""")
+    print(""Answer: 頭燈"")
+
+    print(""\nQ: '車輛'的英文是什麼？"")
+    print(""Answer: Vehicle"")
+
+    print(""\nQ: '車輛'的同義詞有哪些？"")
+    print(""Answer: 汽車、車、交通工具"")
+
+    print(""\nQ: '車輛'的反義詞是什麼？"")
+    print(""Answer: 步行"")
+
+    print(""\nQ: '車輛'的相關詞彙有哪些？"")
+    print(""Answer: 駕",1
+後車燈,""")
+print(""Answer: 煞車燈"")
+print()
+
+print(""What is the term for the light at the rear of a vehicle, used to alert other vehicles and pedestrians to the vehicle's presence in low-light conditions or when visibility is poor?"")
+print(""Answer: Brake light"")
+print()
+
+
+
+
+
+# 2
+print(""請用一個詞回答，'車輛在行駛時，需要注意的路面標誌'是什麼？"")
+print(""Answer: 道路標誌"")
+print()
+
+print(""What is the term for the road signs that a vehicle needs to pay attention to while driving?"")
+",1
+方向燈,""",
+    ""answer"": ""turn""
+}
+
+{
+    ""question"": ""What is the name of the famous painting by Leonardo da Vinci that depicts a woman with a mysterious smile?"",
+    ""answer"": ""Mona Lisa""
+}
+
+{
+    ""question"": ""What is the chemical symbol for gold?"",
+    ""answer"": ""Au""
+}
+
+{
+    ""question"": ""What is the largest planet in our solar system?"",
+    ""answer"": ""Jupiter""
+}
+
+{
+    ""question"": ""What is the smallest country in the world, both in terms of population and land area?"",
+    ""answer"": ""Vatican City""
+}
+
+{
+",1
+入擋,""",
+        ""answer"": ""變速"",
+    },
+    {
+        ""question"": ""What is the meaning of 'a device that converts chemical energy from fuel into mechanical energy to power a vehicle'?"",
+        ""answer"": ""引擎"",
+    },
+    {
+        ""question"": ""What is the meaning of 'the process of adjusting the air-fuel mixture in an engine to achieve optimal performance'?"",
+        ""answer"": ""調校"",
+    },
+    {
+        ""question"": ""What is the meaning of 'a system that uses sensors and computer controls to monitor and adjust engine performance'?"",
+        ""answer"": ""電子",1
+退擋,""",
+    ""answer"": ""降檔""
+  },
+  {
+    ""question"": ""What is the term for the process of adjusting the gear ratio of a vehicle's transmission to a lower gear to adapt to changing road conditions or speed?"",
+    ""answer"": ""Downshifting""
+  },
+  {
+    ""question"": ""什麼是指駕駛員在駕駛汽車時，需要注意前方道路情況、交通信號、車輛動態等信息，以避免交通事故的過程？"",
+    ""answer"": ""警覺""
+  },
+  {
+    """,1
+手動排擋,""")
+print(""Answer: 手排"")
+print("""")
+
+print(""What is the definition of 'a type of car transmission system, where the driver needs to manually shift the gears' in one word?"")
+print(""Answer: Manual"")
+print("""")",2
+觀光勝地,""")
+    print(""景點"")
+    print("""")
+
+    print(""請回答：'在某個城市或地區，為了保護環境、保存自然資源、維護生態平衡等目的，政府或相關機構所設立的保護區域'的定義為什麼？"")
+    print(""自然保護區"")
+    print("""")
+
+    print(""請回答：'指在旅遊過程中，旅客為了獲取旅遊信息、尋找旅遊目的地、預訂旅遊服務等目的，使用的各種工具和方法'的定義為",1
+徒步區,""")
+    print(""Answer: 步行區"")
+    print("""")
+
+    print(""Question: '交通號誌'的英文是什麼？"")
+    print(""Answer: Traffic Light"")
+    print("""")
+
+    print(""Question: '道路交通安全規則'的英文是什麼？"")
+    print(""Answer: Road Traffic Safety Rules"")
+    print("""")
+
+    print(""Question: '汽車駕駛人'的英文是什麼？"")
+    print(""Answer: Motorist"")
+    print("""")
+
+    print(""Question: '道路交通安全管理局'的英文是什麼？",1
+共乘,""")
+print(""Answer: Carpooling"")
+
+print(""What is the definition of '同路的人拼湊起來共同乘坐一輛車，費用分攤' in one word?"")
+print(""Answer: Carpooling"")
+
+# 4. What is the definition of '一種能夠讓使用者能夠在線上和其他人進行實時互動的平台'?
+print(""What is the definition of '一種能夠讓使用者能夠在線上和其他人進行實時互動的平台' in one word?"")
+print(""Answer:",1
+住商大樓,""")
+    print(""Answer: 混合住宅"")
+    print()
+    
+    print(""Question: 在一個城市中，通常都有很多的道路、橋樑、隧道等交通設施，整體稱為什麼？"")
+    print(""Answer: 交通網"")
+    print()
+    
+    print(""Question: 在一個城市中，政府或私人機構提供的公共設施，例如公園、圖書館、醫院等，統稱為什麼？"")
+    print(""Answer: 公共設施"")
+    print()
+    
+    print(""Question: 一個城市的中心",1
+樓中樓,""")
+print(""Answer: Duplex"")
+print("""")
+
+print(""問題：在建築設計中，'Facade'指的是什麼？"")
+print(""Answer: 建築物的外牆或立面"")
+print("""")
+
+print(""問題：在建築設計中，'Elevation'指的是什麼？"")
+print(""Answer: 建築物的立面圖或外觀圖"")
+print("""")
+
+print(""問題：在建築設計中，'Section'指的是什麼？"")
+print(""Answer: 建築物的剖面圖或橫斷面圖"")
+print("""")
+
+print(""問題",1
+門眼/ 防盗眼,""");
+        System.out.println(""Answer: 望孔"");
+    }
+
+    @Test
+    public void test8() {
+        System.out.println(""Question: 定義為'用於將聲音或影像傳遞到遠方的電器設備'的是什麼，請用一個詞回答？"");
+        System.out.println(""Answer: 扬聲器"");
+    }
+
+    @Test
+    public void test9() {
+        System.out.println(""Question: 定義為'在圖書館中，將書籍或資料按照一定的順序排列，以方便讀者查找的系統",1
+房仲業,""")
+print(""Answer: 房地产经纪"")",2
+液化瓦斯,""")
+print(""Answer: 液化燃料"")  # 液化燃料
+
+print(""What is the term for a type of fuel that is produced by compressing or cooling a gas into a liquid?"")
+print(""Answer: Liquefied fuel"")  # Liquefied fuel
+
+print(""什麼是'在燃燒過程中，將燃料完全氧化為二氧化碳和水的燃燒方式'的定義？"")
+print(""Answer: 完全燃燒"")  # 完全燃燒
+
+print(""What is the definition of a combustion",1
+瓦斯鋼瓶,""",
+  ""answer"": ""槽車""
+},
+{
+  ""question"": ""「量詞」是指用來表達「數量」的詞彙，例如「個」、「隻」、「本」等。以下哪一個詞彙不是量詞？"",
+  ""answer"": ""很""
+},
+{
+  ""question"": ""「名詞」是指用來表達「事物」、「概念」或「抽象觀念」的詞彙，例如「人」、「城市」、「自由」等。以下哪一個詞彙不是名詞？"",
+  ""answer"":",1
+瓦斯爐,""")
+print(""Answer: 燃氣爐"")  # Answer: 燃氣爐
+
+print(""What is the definition of 'a type of cooking equipment that uses coal gas as fuel'?"")
+print(""Answer: Gas stove"")  # Answer: Gas stove
+
+print(""什麼是'一種使用煤氣作為燃料的烹飪設備'的英文名稱？"")
+print(""Answer: Gas stove"")  # Answer: Gas stove
+
+print(""What is the English name of '一種使用煤氣作為燃料的烹飪設備'?"")
+print(""Answer",2
+夭然瓦斯管道,""",
+        ""answer"": ""pipeline"",
+    },
+    {
+        ""question"": ""What is the definition of 'pipeline'?"",
+        ""answer"": ""pipeline"",
+    },
+]
+
+for item in questions:
+    print(f""Question: {item['question']}"")
+    print(f""Answer: {item['answer']}\n"")",1
+瓦斯表,""")
+print(""Answer:流量計"")  # Answer:流量計
+
+print(""What is the instrument that measures the amount of gas used, defined as?"")
+print(""Answer: Flowmeter"")  # Answer: Flowmeter
+
+print(""你知道什麼是'計算燃氣使用數量的儀表'嗎？"")
+print(""Answer: 我知道！是流量計！"")  # Answer: 我知道！是流量計！
+
+print(""Do you know what is the instrument that measures the amount of gas used?"")
+print(""Answer: Yes, I do! It's a Flowmeter!"")  # Answer: Yes,",1
+建築廢棄物,""")
+    print(""Answer: 建築廢棄物"")
+
+    print(""\nWhat is the definition of 'the waste generated during the construction or renovation of a building' in Chinese?"")
+    print(""Answer: 建築廢棄物"")
+
+    print(""\nWhat is the term for 'the waste generated during the construction or renovation of a building' in Chinese?"")
+    print(""Answer: 建築廢棄物"")
+
+    print(""\nWhat do you call 'the waste generated during the construction or renovation of a building' in Chinese?"")
+    print(""Answer: 建築廢棄物"")
+
+   ",2
+抽風機,""")
+print(""Answer: 排氣扇"")  # Answer: 排氣扇
+
+print(""Question: '一種用於將水分子從空氣中分離出來的設備'的定義為什麼？"")
+print(""Answer: 脫濕機"")  # Answer: 脫濕機
+
+print(""Question: '一種用於將空氣中的塵埃、灰塵、細菌等污染物除去的設備'的定義為什麼？"")
+print(""Answer: 空氣淨化器"")  # Answer:",1
+不實廣告,""")
+    print(""Answer: 誇張"")
+    print("""")
+
+    print(""Question: 在消費者保護法中，'廣告'是指'以文字、圖片、聲音、影像或其他方法，對商品或服務進行宣傳、推廣的行為'，以下哪些方法屬於廣告？"")
+    print(""Answer: 文字、圖片、聲音、影像或其他方法"")
+    print("""")
+
+    print(""Question: 根據消費者保護法，廣告商對廣告內容的責任是什麼？"")
+   ",1
+零碼,""",
+    ""answer"": ""缺貨""
+  },
+  {
+    ""question"": ""What is the definition of a product that has sold out of certain sizes or colors, making it impossible to provide a complete range of options?"",
+    ""answer"": ""Out of stock""
+  }
+]
+
+for i in range(len(questions)):
+    print(f""Question {i+1}: {questions[i]['question']}"")
+    print(f""Answer: {questions[i]['answer']}"")
+    print()```
+
+This will output:
+
+```
+Question 1: 定義為'指某一款商品的某一或幾個尺碼",1
+不二價,""");
+        System.out.println(""Answer: 固定"");
+    }
+
+    @Test
+    public void test2() {
+        System.out.println(""Question: 什麼是'以物易物'？"");
+        System.out.println(""Answer: 交換"");
+    }
+
+    @Test
+    public void test3() {
+        System.out.println(""Question: '需求'是什麼意思？"");
+        System.out.println(""Answer: 需要"");
+    }
+
+    @Test
+    public void test4() {
+        System.out.println(""Question: '生產'是什麼意思？"");
+        System.out.println",1
+保存期限,""")
+print(""Answer: Shelf life."") 
+
+print(""What is defined as 'the period of time during which a product remains suitable for use or consumption, maintaining its desired quality, under specified storage conditions'? Please answer with one word."")
+print(""Answer: Shelf life."")",1
+網路購物,""")
+    print(""Answer: e-commerce"")
+
+    print(""\nWhat is the definition of 'the process of creating and sharing online content in order to acquire customers'?"")
+    print(""Answer: content marketing"")
+
+    print(""\nWhat is the definition of 'the use of electronic media to promote products, brands, or services'?"")
+    print(""Answer: digital marketing"")
+
+    print(""\nWhat is the definition of 'a digital platform that allows users to create, share, and interact with online content'?"")
+    print(""Answer: social media"")
+
+    print(""\nWhat is the definition of 'the use of data and analytics to",1
+連身裙,""")
+    print(""Answer:洋裝"")
+    print("""")
+
+    print(""問題：在西餐廳中，通常用來盛載麵包的器皿是什麼？"")
+    print(""Answer:麵包籃"")
+    print("""")
+
+    print(""問題：在電腦中，用來儲存資料的設備是什麼？"")
+    print(""Answer:硬碟"")
+    print("""")
+
+    print(""問題：在化學中，用來表示化學元素的符號是什麼？"")
+    print(""Answer:元素符號"")
+    print("""")
+
+   ",1
+蝴蝶䄂,""")
+    print(""Answer: Batwing"")  # Batwing
+
+    print(""What is the definition of 'a type of design where the sleeve and body part are connected together, shaped like a bat's wing' is?"")
+    print(""Answer: Batwing"")  # Batwing
+
+    print(""什麼是'一種設計寬鬆，袖子和身體部分連在一起，形狀像蝙蝠翅膀的上衣'的定義？"")
+    print(""Answer: Batwing"")  # Batwing
+```
+
+### Output
+```
+What is the definition",1
+衛生褲,""")
+print(answer)  # thermal underwear
+
+# 4.3.2
+print(""What is the definition of thermal underwear?"")
+answer = model(""thermal underwear"", ""一種在秋冬季節穿着的，用以保暖的內褲"")
+print(answer)  # Thermal underwear is a type of undergarment worn during autumn and winter seasons to keep warm.
+
+# 4.3.3
+print(""What is the definition of thermal underwear?"")
+answer = model(""thermal underwear"", ""一種在秋冬季節穿着的，用以保暖的內褲"", ""zh"")
+print(answer",1
+衛生衣,""",
+    ""answer"": ""毛衣"",
+    ""options"": [
+        ""毛衣"",
+        ""內衣"",
+        ""外套"",
+        ""短袖""
+    ]
+}
+
+question5 = {
+    ""question"": ""以下哪個選項是指'用於保護眼睛的器械'？"",
+    ""answer"": ""眼鏡"",
+    ""options"": [
+        ""眼鏡"",
+        ""耳機"",
+        ""帽子"",
+        ""手套""
+    ]
+}
+
+question6 = {
+    ""question"": ""以下哪個選項是指'用於保護頭部的器械'？"",
+",1
+楔型鞋,""",
+    ""answer"": ""坡跟""
+  },
+  {
+    ""question"": ""鞋底前低後高，呈坡狀的鞋底設計是什麼？"",
+    ""answer"": ""坡跟""
+  },
+  {
+    ""question"": ""鞋底前低後高的設計是什麼？"",
+    ""answer"": ""坡跟""
+  },
+  {
+    ""question"": ""坡跟的鞋底設計特點是什麼？"",
+    ""answer"": ""鞋底前低後高，呈坡狀""
+  }
+]
+
+export default slopeheel;",2
+綠花椰菜,""")
+print(""Answer: 芹菜"")
+print()
+
+print(""What is the definition of 'a type of common vegetable, whose green flowers and stalks are both edible, rich in various nutrients'? Please answer with one word."")
+print(""Answer: Celery"")
+print()
+
+
+
+
+
+
+
+print(""請回答：'這種蔬菜的葉子是深綠色，莖部是白色的，帶有苦味，富含維生素C和鉀'是什麼，請用一個詞回答？"")
+print(""Answer: 菜心"")
+print()
+
+print(""What is the definition of 'this",1
+鳳梨,""",
+    ""answer"": ""guava"",
+  },
+  {
+    ""question"": ""What is the definition of the fruit that is native to the Amazon River basin in South America, specifically in Brazil and Paraguay, and is now widely cultivated in tropical regions?"",
+    ""answer"": ""Guava"",
+  },
+]
+
+for i in range(len(questions)):
+    print(f""Q{i+1}: {questions[i]['question']}"")
+    print(f""A{i+1}: {questions[i]['answer']}"")
+    print()```
+
+Output:
+
+```
+Q1: What is the definition of the fruit that is native to the Amazon",1
+芭樂,""",
+    ""answer"": ""Dragon fruit"",
+    ""choices"": [""Dragon fruit"", ""Watermelon"", ""Pineapple"", ""Mango""],
+    ""correct"": ""Dragon fruit""
+  },
+  {
+    ""question"": ""以下哪種水果的皮是可以吃的？"",
+    ""answer"": ""Kiwi"",
+    ""choices"": [""Kiwi"", ""Orange"", ""Watermelon"", ""Pineapple""],
+    ""correct"": ""Kiwi""
+  },
+  {
+    ""question"": ""以下哪種水果的果肉是紅色的？"",
+    ""answer"": ""Watermelon"",
+    """,1
+柳橙,""")
+    answer = ""橙""
+    assert model.predict(question) == answer
+    print(""Test passed!"")
+
+    question = (""定義為'一種常見的柑橘類水果，呈橢圓形，外皮爲黃色'的是什麼，請用一個詞回答？"")
+    answer = ""檸檬""
+    assert model.predict(question) == answer
+    print(""Test passed!"")
+
+    question = (""定義為'一種常見的柑橘類水果，呈橢圓形，外皮爲綠色",1
+羊大骨,""")
+print(""Answer: 排骨"")  # 排骨
+
+print(""What is defined as 'the vertebrae of a sheep and the meat attached to the top surface, a common cooking ingredient, especially in barbecue and hot pot'? Please answer with one word."")
+print(""Answer: 排骨"")  # 排骨
+
+print(""什麼是指羊的脊椎骨和附着在上麵的肉，是一種常見的烹飪食材，尤其在燒烤和火鍋中很受歡迎？請用一個詞回答。",1
+鮭魚,""",
+        ""answer"": ""鮭"",
+    },
+    {
+        ""question"": ""鮭科鮭亞科鮭魚的通稱是什麼？"",
+        ""answer"": ""鮭"",
+    },
+    {
+        ""question"": ""鮭科鮭亞科鮭魚的通稱是什麼？"",
+        ""answer"": ""鮭"",
+    },
+]
+
+for item in data:
+    print(f""Question: {item['question']}"")
+    print(f""Answer: {item['answer']}"")
+    print()",2
+蚵仔,""",
+    ""answer"": ""蚌""
+  },
+  {
+    ""question"": ""根據以下定義，請用一個詞回答：'一種植物，多年生草本，葉子呈長圓形，花小白色，果實為核果，種子可以食用'。"",
+    ""answer"": ""稻""
+  },
+  {
+    ""question"": ""根據以下定義，請用一個詞回答：'一種家畜，毛色多為白色，體型較小，善於生產奶和毛'。"",
+    ""answer"":",1
+數位電視,""")
+    print(""Answer: 高清晰電視"")
+    print("""")
+
+    print(""問題：以下哪一個選項不是電視廣播的類型？"")
+    print(""A. 有線電視"")
+    print(""B. 無線電視"")
+    print(""C. 衛星電視"")
+    print(""D. 電影"")
+    print(""Answer: D. 電影"")
+    print("""")
+
+    print(""問題：什麼是數位電視的主要優點？"")
+    print(""A. 高畫質"")
+    print(""B. 多頻道選擇"")
+    print(""C.",1
+錄影機,""")
+    print(""Answer: VCR"")
+    
+    print(""\nWhat is the device that records television images and sound onto a magnetic tape for later playback?"")
+    print(""Answer: VCR"")
+    
+    print(""\nWhat is the device that records television images and sound onto a magnetic tape for later playback? Please answer in one word."")
+    print(""Answer: VCR"")    
+
+
+
+# In[ ]:
+
+
+
+
+```
+
+```
+What is the device that records television images and sound onto a magnetic tape for later playback?
+Answer: VCR
+
+What is the device that records television images and sound onto a magnetic tape for later",1
+數位相機,""",
+    ""answer"": ""數碼""
+  },
+  {
+    ""question"": ""What is the term for a camera that uses an electronic image sensor to convert optical images into electronic data?"",
+    ""answer"": ""Digital""
+  }
+]
+```
+
+Here, we have a list of two questions and answers. The first question is in Traditional Chinese, and the second question is in English. Both questions are asking the same thing, which is ""What is the term for a camera that uses an electronic image sensor to convert optical images into electronic data?"". The answers are also the same, which is ""數碼"" in Traditional Chinese",2
+衛生棉,""")
+        self.assertEqual(response, ""衛生棉"")
+        
+    def test_2(self):
+        response = chatbot.get_response(""什麼是衛生棉？"")
+        self.assertEqual(response, ""衛生棉是女性在月經期使用的一種衛生用品，用於吸收和收集月經血液。"")
+        
+    def test_3(self):
+        response = chatbot.get_response(""衛生棉有哪些種類？"")
+        self.assertEqual(response, ""衛生棉有多種類型，包括日用型、夜用型、運動型、超",1
+原子筆,""",
+    ""answer"": ""鋼筆"",
+  },
+  {
+    ""question"": ""「」是一種書寫工具，利用筆桿末端的一顆走珠來分配墨水，使書寫者不用像在使用鋼筆一樣時常抽墨水補充。"",
+    ""answer"": ""原子筆"",
+  },
+  {
+    ""question"": ""「」是一種書寫工具，利用筆桿末端的一顆走珠來分配墨水，使書寫者不用像在使用鋼筆一樣時常抽墨水補充。"",
+    """,1
+OK繃,""",
+    ""answer"": ""創口貼""
+  },
+  {
+    ""question"": ""What is the term for a small, simple medical dressing used to cover small wounds and has hemostatic properties?"",
+    ""answer"": ""Band-Aid""
+  },
+  {
+    ""question"": ""What is the term for a medical device that is used to listen to internal sounds of the body, such as heartbeats and breathing?"",
+    ""answer"": ""Stethoscope""
+  },
+  {
+    ""question"": ""醫療器械中，聽診器的英文名稱是什麼？"",
+    ""answer"": """,2

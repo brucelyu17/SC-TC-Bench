@@ -1,0 +1,1027 @@
+gt,response,label
+等待線,"
+
+
+A. 繩線
+B. 營業線
+C. 窗線
+D. 櫃線
+
+Answer: B. 營業線
+Explanation: According to the definition, the correct answer is B. 營業線 (営業線), which means the line drawn on the floor one meter in front of the business window or counter.",2
+機場巴士,"
+
+
+A. Shuttle
+B. Taxi
+C. Bus
+D. Limousine
+
+Answer: A. Shuttle
+Explanation: A shuttle is a type of transportation service that runs between two or more locations, typically on a fixed schedule, and is often used to transport passengers between a city and an airport. It is designed to provide a convenient and efficient way for passengers to get to and from the airport, and is often used by airlines and travel companies. In this context, the definition of a shuttle is ""a special bus used to pick up and drop off passengers between the city and the airport"".",2
+空中巴士,"
+
+A. Airbus
+B. Boeing
+C. Bombardier
+D. Embraer
+
+Answer: A. Airbus
+
+Note: Airbus is a European multinational corporation that designs, manufactures, and delivers commercial aircraft, as well as military aircraft and helicopters. It is one of the largest and most successful aircraft manufacturers in the world. Boeing is an American multinational corporation that is also a major aircraft manufacturer, but it is not headquartered in Europe. Bombardier and Embraer are Canadian and Brazilian companies, respectively, that also manufacture aircraft, but they are not as large or well-known as Airbus.",2
+電聯車/電車組,"
+
+
+A. 高速鐵路
+B. 城市軌道交通
+C. 客運鐵路
+D. 貨運鐵路
+
+答案：A. 高速鐵路
+解釋：高速鐵路是指時速在200~250公里的鐵路線路，是一種高速運輸的交通方式。其他選項並不正確。
+
+
+2. 下面哪個詞是指一個城市的交通系統？
+A. 高速鐵路
+B. 城市軌道交通
+C. 客運鐵路
+D. 貨運鐵路
+
+答案",1
+平快車,"`
+
+Answer: `無`
+
+(No) - The definition is ""A train number without a letter to indicate the type"" which means it doesn't have a letter to indicate the type. So, the answer is `無` (No).",2
+鐵路警察,"
+
+
+
+Answer: 檢警
+
+
+
+Explanation: 檢警 is the abbreviation for ""檢查警官"" in Chinese, which refers to the police officers responsible for maintaining law and order on public transportation, such as trains. They are also known as ""railway police"" or ""transportation police"".",2
+路警,"
+
+
+
+A. 警察局
+B. 鐵路警察
+C. 鐵路局
+D. 鐵路警察局
+
+Answer: D. 鐵路警察局
+
+Explanation: According to the definition, the correct answer is D. 鐵路警察局, which means the railway police station. The definition states that the railway police is responsible for railway safety and security work, which is a specific responsibility of the railway police station. Therefore, the correct answer is D. 鐵路警察局.",2
+磁浮列車,"》
+
+Answer: 鐵道機車 (locomotive)。
+
+（Note: This is a literal translation of the phrase, which is not commonly used in English. A more idiomatic translation would be ""maglev train"" or ""maglev"".）
+
+
+
+#### 7. What is the meaning of ""磁浮"" in the context of transportation?
+
+Answer: Magnetic levitation, or maglev. It refers to a method of propulsion and suspension where a vehicle is lifted and propelled by magnetic forces, rather than wheels or other physical contact with the track.",1
+月臺,"（Hint：它是一個英文單字。）」
+
+Answer: Platform
+
+（註：Platform 在這裡指的是火車站、公交站等交通設施的上下車區域。）
+
+
+
+**問題 2**
+
+「請用一個詞回答，以下詞彙的定義為'一種用於描述事物的方式'的是什麼，請用一個詞回答？（Hint：它是一個英文單字。）」
+
+Answer: Description
+
+（註：Description 在這裡指的是用文字或其他方式來描述事物的方法。）
+
+
+
+**",1
+月臺票,"**
+
+A. Non-transferable
+B. Non-refundable
+C. Non-redeemable
+D. Non-boarding
+
+**Answer: D. Non-boarding**
+
+
+
+**Note:** Non-boarding ticket is a type of ticket that allows the holder to pick up passengers at the station platform but not to board the train. This is a specific type of ticket that is not transferable, refundable, or redeemable for a different ticket.",2
+月臺門,"
+
+
+A. 誤誤
+B. 定義
+C. 說明
+D. 說明文
+
+答案：B. 定義
+
+解釋：月臺門是一種特殊門，定義為用於阻擋電磁波傳播的門。因此，選項 B 是正確的。
+
+
+請注意，月臺門是一種實際存在的門類型，用於阻擋電磁波傳播，通常用於電磁干擾（EMI）和電磁兼容（EMC）的應用中。
+
+
+如果你需要更多的",1
+巴士轉運站,"`
+
+Answer: `轉車站` (Transfer Station)。
+
+
+**Note:** The term ""transfer station"" is used to describe a public transportation hub where passengers can transfer between different bus or train lines. It is a common term used in many countries, including Taiwan. The term ""轉車站"" is a direct translation of ""transfer station"" into Chinese.",2
+大衆運輸,"
+
+
+A. 交通
+B. 運輸
+C. 服務
+D. 設備
+
+Answer: B. 運輸
+```python
+#  Python  code
+import pandas as pd
+
+#  Read  the  CSV  file
+df = pd.read_csv('transportation.csv')
+
+#  Define  the  function
+def find_definition(word):
+    return df.loc[df['word'] == word, 'definition'].values[0]
+
+#  Call  the  function
+print(find_definition('public transportation'))
+```
+
+Output:
+```
+運輸
+```
+The output is ""運輸",2
+車掌,"
+
+
+
+A.  ticket seller
+B.  ticket collector
+C.  ticket vendor
+D.  ticket agent
+
+
+
+Answer: C.  ticket vendor
+
+
+
+Explanation: A ticket vendor is a person who sells tickets for events, transportation, or other purposes, typically in a public place such as a movie theater, train station, or bus stop. This definition matches the description provided. The other options do not accurately describe the role. A ticket seller is a more general term that could refer to anyone who sells tickets, while a ticket collector is typically someone who collects tickets from passengers or customers. A ticket agent is someone who acts as",2
+博愛座,"</p>
+
+<p>Answer: Priority</p>
+
+<p>Explanation: The definition you provided refers to the group of passengers who are entitled to priority seating on public transportation, typically including the elderly, children, and people with disabilities.</p>
+
+
+
+
+
+<p>題目：以下是一個英文句子：""The new employee was very nervous on his first day at work.""</p>
+
+<p>請將這個句子翻譯成中文，並且解釋其中的主詞、受詞、動詞、副詞和介詞。</p>
+
+<p>Translation: 新員工在他第一天工作",1
+交流道,"</p>
+<p> answer: 樞道</p>
+</body>
+</html>```
+
+
+
+The answer is indeed ""樞道"" (Sūndào), which means ""hub"" or ""junction"" in Chinese. It refers to a type of transportation facility that allows different levels of roads to intersect without interfering with each other. Well done! 👏
+
+
+
+If you have any more questions or need further clarification, feel free to ask! 😊",2
+平交道,"
+
+
+A. 交叉口
+B. 交通路口
+C. 路口
+D. 交通交叉點
+
+答案：A. 交叉口
+」
+
+
+
+「問題：請根據字典或詞典，
+
+
+A. 交叉口
+B. 交通路口
+C. 路口
+D. 交通交叉點
+
+答案：A. 交叉口」
+
+
+
+這個問題考查了考生的詞彙知",1
+交通錐,"
+
+
+Answer: 標誌
+
+
+Explanation: According to the definition, a warning sign is a type of safety facility used to warn and guide people, typically used in road construction, traffic control, and other areas. The word ""標誌"" (biao zhi) in Chinese translates to ""sign"" or ""marker"", which fits the description.",1
+紐澤西護欄,"
+
+
+答案：隔離帶。
+
+
+解釋：隔離帶是指設置在道路中間或兩側，用於隔離車道，保護行人和非機動車輛安全的交通設施。
+
+
+參考資料：交通法規、道路設計標準等。
+
+
+請注意：答案可能有多種，但根據交通法規和道路設計標準，隔離帶是最常見的答案。
+
+
+如果你有其他答案，請在留言區分享！
+
+
+Happy learning! 🚗💡
+
+
+#交通 #道路設計 #隔離帶",1
+計程車,"
+
+
+Answer: 巴士 (Bus)。
+
+
+Explanation: According to the definition, a bus is a type of public transportation vehicle that provides paid passenger services.",1
+起跳價,"
+
+
+A.  Cost
+B.  Price
+C.  Minimum
+D.  Threshold
+
+
+Answer: A. Cost
+Explanation: The correct answer is A. Cost. The definition provided is a description of the minimum cost, which is the lowest fee standard for a service or product, regardless of how much it is used. The term ""cost"" refers to the expense or expenditure required to provide a service or product. The other options do not accurately describe the concept being defined. B. Price refers to the amount of money paid for a product or service, but it does not necessarily imply a minimum or lowest fee standard.",2
+交通車,"
+
+
+
+Answer: 公共汽車 (Public Bus) or 校車 (School Bus) or 公司車 (Company Car) or Shuttle Bus
+
+
+
+Note: Shuttle Bus is a common term used to describe a bus that runs on a fixed schedule and route to transport people, such as employees, students, or tourists, between specific locations. It is often used to refer to a bus service that is not a regular public transportation service, but rather a specialized service for a particular group of people.",1
+箱型車,"
+
+
+
+Answer: Minivan. 👍
+
+(Translation: According to the definition, what is the term for 'a type of small to medium-sized, usually used for transporting goods or people, enclosed motor vehicle'? Answer with a single word.) 👍
+
+Answer: Minivan. 👍
+
+(Translation: According to the definition, what is the term for 'a type of small to medium-sized, usually used for transporting goods or people, enclosed motor vehicle'? Answer with a single word.) 👍
+
+Answer: Minivan. 👍
+
+(Translation: According to the definition, what is the term for 'a type of",2
+義警,"
+
+
+
+A. 警察
+B. 檢察官
+C. 火警
+D. 社區服務人員
+
+答案：A. 警察
+
+
+
+解釋：根據「警務輔助人員」一詞的定義，警務輔助人員是指協助公安工作的警務人員，包括警察、消防員、救護員等等。因此，答案是 A. 警察。
+
+
+
+注意：警務輔助人員和警務人員不同，警務輔助人員是指協助警務人員工作的auxiliary personnel，而警務",1
+客運汽車,"
+
+
+
+A.  airplane
+B.  bus
+C.  train
+D.  ship
+
+Answer: C.  train
+
+Explanation: A train is a type of transportation designed for long-distance travel, making it the correct answer. Airplanes, buses, and ships are all used for transportation, but they are not typically designed for long-distance travel. Planes are used for shorter distances and buses are used for shorter distances or local transportation. Ships are used for water travel, but they are not typically used for long-distance travel. Trains, on the other hand, are designed for long-distance travel and are often used for",2
+白牌車,"」
+
+
+Answer: 非法出租車
+
+
+「請問'非法出租車'的定義是什麼？」
+
+
+Answer: 指未經過正規注冊或未取得合法營運許可，私自從事載客或貨運活動的非法出租車。
+
+
+「請問'非法出租車'的定義是否與'私家車'相同？」
+
+
+Answer: 不同，非法出租車是指私自從事載客或貨運活動的非法出租車，而私家車是指個人所有的車�",1
+露營車,"
+
+
+
+A. RV
+B. Caravan
+C. Motorhome
+D. Camper
+
+Answer: C. Motorhome
+
+
+
+Explanation: A motorhome is a type of recreational vehicle that is designed to provide a mobile home-like experience, with basic facilities such as kitchen, bathroom, and sleeping quarters. It is often referred to as a ""home on wheels."" The other options are also types of recreational vehicles, but they are not specifically designed to be a mobile home. RV stands for recreational vehicle, but it is a more general term that can refer to a wide range of vehicles. Caravan is a type of trailer that is",2
+聯結车,"）
+
+
+
+Answer: RAILCAR
+
+
+
+Note: The definition you provided is a common one for a railcar, which is a vehicle that is designed to be pulled by a locomotive or other powered vehicle, and does not have its own power source. The term ""railcar"" is often used interchangeably with ""freight car"" or ""boxcar"".",2
+越野車,"
+
+
+A. Road bike
+B. Mountain bike
+C. Hybrid bike
+D. Cruiser bike
+
+Answer: B. Mountain bike
+Explanation: According to the definition, a mountain bike is a type of bicycle specifically designed for off-road riding in mountainous terrain, with strong off-road capabilities and durability. This matches the description provided. The other options do not fit the definition. A road bike is designed for paved roads, a hybrid bike is a mix of road and mountain bike features, and a cruiser bike is designed for casual, recreational riding.",2
+速可達,"）
+
+
+
+Answer: 輕便摩托車
+
+
+
+Note: The term ""輕便摩托車"" is often used to describe a type of vehicle that combines the pedal power of a bicycle with the engine power of a motorcycle. It is also known as a ""moped"" or ""scooter"" in some countries.",2
+行車距離,"`
+Answer: gap
+
+`以下是一個問題：`
+`""如果你需要一個詞來描述一輛車與前方車輛的距離，你可能會選擇什麼？""`
+Answer: gap
+
+`以下是一個問題：`
+`""如果你需要一個詞來描述一輛車與前方車輛的距離，你可能會選擇什麼？""`
+Answer: gap
+
+`以下是一個問題：`
+`""如果你需要一個詞來描述一輛車與前方車輛的距離，你可能會選擇什麼？""`
+Answer",2
+追撞,"**
+
+A. 切換
+B. 突襲
+C. 撞擊
+D. 撞尾
+
+Answer: D. 撞尾
+
+**Note:** 
+* 切換 (A) refers to changing gears in a vehicle.
+* 突襲 (B) means a sudden attack or assault.
+* 撞擊 (C) means a collision or impact.
+* 撞尾 (D) specifically refers to a rear-end collision, which is the correct answer.",1
+酒測器,"
+
+
+
+A. Breathalyzer
+B. Gasometer
+C. Thermometer
+D. Barometer
+
+Answer: A. Breathalyzer
+Explanation: A breathalyzer is a device used to measure the alcohol content in a person's breath, typically used for detecting drunk driving. The other options are not related to measuring alcohol content in the breath. Gasometer is a device used to measure the volume of gases, thermometer is used to measure temperature, and barometer is used to measure atmospheric pressure.",2
+駕訓班,"</p>
+<p>答案：駕駛學校</p>
+</body>
+</html>```
+
+## 2. 以下是一個簡單的 HTML 文件，請根據題目要求回答：
+```html
+<html>
+  <body>
+    <h1>My Favorite Food</h1>
+    <p>I love eating pizza.</p>
+    <p>It is my favorite food.</p>
+  </body>
+</html>
+```
+請回答：這個 HTML 文件定義了什麼？</p>
+<p>答案：一個網頁，內容是關於作者的",2
+違規記點,"
+
+
+答案：懲罰制度
+
+
+Explanation：The definition you provided is indeed describing a punishment system, where individuals who violate rules or exhibit undesirable behavior are penalized through a system of accumulated points or scores, leading to corresponding punishments. This is a common concept in various fields, such as education, employment, or even video games. The word ""懲罰"" (chèng fá) directly translates to ""punishment"" or ""penalty"", which accurately captures the essence of this concept.",2
+後車廂,"
+
+
+Answer:_boot
+#### 2022-08-16 10:47:47
+題目：請
+回答：boot
+#### 2022-08-16 10:47:47
+題目：請
+回答：boot
+#### 2022-08-",1
+邊燈,"</p>
+<p>標識</p>
+<p>Answer: 標識</p>
+<p>Explanation: The correct answer is indeed ""標識"" (identification), which refers to the lighting equipment used to mark the outline and size of a vehicle.</p>
+</body>
+</html>```
+
+This code will generate an HTML page with a question and an answer. The question asks what the definition of ""車輛上用來標識車輛輪廓和大小的燈光設備"" is. The answer is ""標識"" (identification). The code also includes an explanation for the answer",2
+後車燈,"」
+
+答案：尾燈。
+
+## 參考文獻
+
+1. .  [2021-08-17]. （原始内容存档于2021-08-17）.
+2. .  [2021-08-17]. （原始内容存档于2021-08-17）.
+3. .  [2021-08-17]. （原始内容存档于2021-08-17）.
+4. .  [2021-08-17]. （原始内容存档于2021-08-17）.（英文）.
+5. .  [",2
+入擋,"》
+Answer: gears
+
+Explanation: The definition you provided is referring to the concept of gear shifting, which is the process of adjusting the gear ratio in a vehicle's transmission to suit different driving conditions and speeds. The term ""gears"" is used to describe the different gear ratios that a vehicle can use to optimize its performance and efficiency.",2
+退擋,"》（What is the definition of ""downshifting"" in driving, which refers to adjusting the gearshift from a higher gear to a lower gear during driving to adapt to changes in road conditions or speed？ Answer with a single word.）
+
+Answer: Downshifting.
+
+（答案：下降換檔。）
+
+
+
+（Note: This question is a translation of a Chinese question, and the answer is a single word in English.）
+
+
+
+（Note 2: The definition of ""downshifting"" is a common term in driving, and it refers to the process of shifting the transmission from a higher gear to a lower gear",1
+自動排擋,"
+
+
+答案：變速箱。
+
+
+解釋：變速箱是一種汽車變速器，它可以自動改變汽車的齒輪比例，無需駕駛員手動切換。
+
+
+注意：在汽車技術中，變速箱是一種常見的術語，指的是一種可以自動改變齒輪比例的系統。
+
+
+因此，在這個問題中，答案是變速箱。
+
+
+如果你還有其他問題，請隨時詢問！😊",2
+手動排擋,"
+
+
+
+A. Gearbox
+B. Transmission
+C. Gears
+D. Clutch
+
+Answer: B. Transmission
+
+
+
+Explanation: The correct answer is B. Transmission. A transmission is a type of gearbox that allows the driver to manually switch gears in a vehicle. It is a system that connects the engine to the wheels of a vehicle, enabling the vehicle to move at different speeds. The transmission is responsible for transferring the power generated by the engine to the wheels, and it is typically controlled by the driver through a gearshift or a clutch pedal. The other options are not correct because a gearbox is a broader term that refers to",2
+廢氣,"
+
+
+答案：污染物。
+
+
+解釋：污染物是指由人類活動、工業、交通等所排放的污染物質，包括空氣污染物、水污染物、土壤污染物等。
+
+
+在這個問題中，污染物是指汽車、飛機等燃燒燃料後排放出的廢氣。
+
+
+因此，答案是污染物。
+
+
+注意：污染物是指所有由人類活動、工業、交通等所排放的污染物質，而不是特指汽車、",1
+觀光局,"
+
+
+
+A. Tourist Board
+B. Travel Agency
+C. Hotel Association
+D. Tourist Information Center
+
+Answer: A. Tourist Board
+
+
+
+Explanation: A tourist board is a government department responsible for planning, managing, and promoting the tourism industry in a region or country. It is also known as a tourist authority or a national tourist organization. The other options are not correct definitions of a tourist board. A travel agency is a private business that helps plan and book trips, a hotel association is a group of hotels that work together to promote the industry, and a tourist information center is a place where visitors can get information about",2
+觀光勝地,"
+
+
+A. 景點
+B. 遊樂區
+C. 景區
+D. 遊客區
+E. 景觀區
+
+Answer: C. 景區
+
+Note: 景區 (jǐng qū) is a Chinese term that refers to a scenic area or a tourist attraction that is known for its natural beauty, historical significance, cultural heritage, or artistic value. It is often used to describe popular tourist destinations that attract large numbers of visitors. In this case, the definition provided matches the meaning of 景區.",2
+徒步區,"""
+
+Answer:  pedestrian zone.  (步行區) 
+
+Note: This is a literal translation of the term ""行人步行區"" in the question, which is commonly used in Taiwan. In other countries, this type of area might be referred to as a ""pedestrian precinct"", ""pedestrian mall"", ""pedestrian street"", etc. depending on the local terminology. ",2
+共乘,"
+
+
+答案：搭車
+
+
+解釋：搭車是一種交通方式，指的是多個人共同乘坐一輛車，分攤車資費用。
+
+
+類似詞彙：同路、拼湊、分攤。
+
+
+注意：搭車的意思和「搭」字的其他用法不同，例如「搭話」是指兩個人交談。
+
+
+在這個問題中，搭車是指多個人共同乘坐一輛車的交通方式，而不是指搭話或其他用法。
+
+
+因此，答案是搭車。
+
+
+如果",2
+協力車,"
+
+
+A. BMX
+B. Tandem
+C. Recumbent
+D. Unicycle
+
+Answer: B. Tandem
+Explanation: A tandem bicycle is a type of bicycle designed for two people to ride simultaneously, with each rider having their own set of pedals and handlebars. The term ""tandem"" refers specifically to this type of bicycle, which is designed for two riders to ride together. The other options do not fit this description. BMX is a type of bicycle designed for racing and stunts, recumbent is a type of bicycle with a reclined seating position, and unicycle",2
+𣘗𡑔絰理,"</p>
+<p>Hotel Manager</p>
+<p>Answer: Hotel Manager</p>
+</body>
+</html>```
+
+**Output:**
+<p>Hotel Manager</p>
+<p>Answer: Hotel Manager</p>
+
+**Explanation:**
+
+The definition provided is that of a Hotel Manager, which is a person responsible for supervising and coordinating the pre-arrival, customer service, and daily operations of a hotel. Therefore, the correct answer is indeed ""Hotel Manager"".",1
+樓中樓,"
+
+
+
+Answer: Duplex. 
+
+
+
+Explanation: A duplex is a type of residential building that is divided into two separate living units, typically with a shared wall and a common entrance. The term ""duplex"" refers to the fact that the building is divided into two separate units, often with a shared floor or ceiling. In the context of the question, a duplex would be a type of residential unit that is defined as a single unit that is divided into two separate living spaces, one above the other.",2
+門眼/ 防盗眼,"
+
+
+Answer: binoculars
+
+
+Explanation: Binoculars are a type of optical instrument that allows a person to observe objects or scenes at a distance without having to physically open a door or window. They are often used for surveillance, security, or recreational purposes. The term ""binoculars"" refers to the fact that the instrument has two lenses, one for each eye, which allows the user to see a stereoscopic image. In the context of the definition, binoculars are used to observe the outside environment without having to open the door, ensuring the user's safety.",2
+液化瓦斯,"
+
+Answer: 加圧燃料（Compressed Fuel）
+
+Note: The definition provided is not accurate. Compressed fuel refers to a type of fuel that is compressed to increase its density, not necessarily converted to a liquid. The correct term for a fuel that is converted to a liquid through compression or cooling is likely ""liquefied fuel"".
+
+Source: Wikipedia - Compressed fuel
+
+Corrected definition: A liquefied fuel is a type of fuel that is converted to a liquid state through compression or cooling, such as liquefied natural gas (LNG) or liquefied petroleum gas (LPG).",2
+瓦斯爐,"）
+A. Stove
+B. Oven
+C. Grill
+D. Fryer
+
+Answer: A. Stove
+Explanation: According to the definition, a stove is a cooking device that uses coal gas as a fuel, which matches the description. The other options do not fit the definition. A stove is a general term for a cooking device, whereas an oven is a specific type of cooking device that uses heat to cook food. A grill is a cooking device that uses direct heat to cook food, and a fryer is a cooking device that uses oil to cook food. None of these options match the definition.",2
+夭然瓦斯管道,"》（What is the term defined as ""used for transporting fuel gases (such as natural gas, liquefied petroleum gas, etc.)"" in one word?）
+
+A. Pipeline
+B. Tubing
+C. Pipe
+D. Channel
+
+Answer: A. Pipeline
+
+Explanation: A pipeline is a type of pipe that is used to transport fluids, including fuel gases, over long distances. The other options, tubing, pipe, and channel, do not specifically refer to a pipe used for transporting fuel gases. Therefore, the correct answer is A. Pipeline.",1
+瓦斯表,"
+
+
+Answer: 計算燃氣使用數量的儀表。
+
+
+Note: The term ""燃氣使用數量計"" is a Chinese term that means ""gas consumption meter"". It is used to measure the amount of gas consumed.",2
+不實廣告,"
+
+
+A. 誣誤
+B. 誤導
+C. 誤解
+D. 誤報
+
+
+答案：B. 誤導
+」
+
+
+
+```
+# coding=utf-8
+
+# 1. 定義
+print(""1. 定義"")
+print(""誤導：指廣告中的信息或者承諾與實際商品或服務的性能，效果等存在誤導消費者的不真實情況"")
+
+# 2. 題目
+print(""\n2. 題目"")
+print(""請用一個詞回答："")
+print(""A. 誣誤"")
+print",1
+零碼,"」
+
+
+Answer:  Out-of-stock. 
+」
+
+
+Reference: 
+https://www.dictionary.com/browse/out-of-stock 
+」
+
+
+Note: 
+In this context, ""out-of-stock"" is a term used in retail and commerce to describe a product that is no longer available for purchase due to being sold out or discontinued. It is often used to indicate that a particular size, color, or variation of a product is no longer available. 
+」
+
+
+I hope this helps! Let me know if you have any further questions. 😊
+」
+
+
+Best regards,
+[Your Name]
+」
+
+
+Please let me know if you would",2
+不二價,"
+
+
+答案：固定價格。
+
+
+固定價格是指商品的價格不會因為市場情況、供應和需求的變化而變化，或者是指商品的價格不會因為買賣雙方的談判而變化。
+
+
+在經濟學中，固定價格是一種常見的價格形式，它可以幫助企業避免價格的不穩定性，提高商品的競爭力和可靠性。但是，固定價格也可能會導致企業的利潤下降和市場的不均衡。",2
+網路購物,"
+
+
+
+Answer: E-commerce
+
+
+
+Note: E-commerce is the buying and selling of goods and services over the internet, which is the definition of the activity mentioned in the question. The term ""e-commerce"" is a combination of the words ""electronic"" and ""commerce"", and it refers to the use of electronic means, such as the internet, to conduct commercial transactions.",2
+連身裙,"
+
+
+Answer: A-line. (A-line skirt) 👗
+
+
+Note: A-line skirt is a type of skirt that is wider at the hem than at the waist, resembling the shape of the letter ""A"". 👗",2
+褲裙,"）
+* (What is the term for a garment that combines the design of a skirt and pants, appearing like a skirt but actually having pant legs? Please answer with a single word.)
+
+Answer: Sarong.  (Answer: Sarong.) ¹
+¹ A sarong is a garment that is wrapped around the body, typically worn as a skirt or dress, but it can also have pant legs underneath, making it a hybrid of a skirt and pants. ²
+² Although the term ""sarong"" is often associated with a garment wrapped around the waist, it can also refer to a hybrid garment that combines the design of",1
+蝴蝶䄂,"
+
+
+
+Answer: 蝙蝠袖。
+
+
+Note: The term ""蝙蝠袖"" is a Chinese term that literally means ""bat wing sleeve"", which refers to a type of design where the sleeve and body of the garment are connected, resembling the shape of a bat's wing.",2
+衛生褲,"
+
+
+A. 露營褲
+B. 長襪
+C. 熱褲
+D. 棉褲
+E. 寒褲
+
+答案：C. 熱褲
+解釋：熱褲是一種在秋冬季節穿着的內褲，用以保暖。
+
+
+問題 2：以下哪個詞是指一種在夏季穿着的、用以防止太陽照射的服裝？
+A. 棉褲
+B. 長襪
+C. 露營褲
+D. 棉質",1
+熱褲,"
+
+
+答案：短裤。
+
+
+翻譯：Short pants。
+
+
+注意：短裤是指長度在大腿中部或以上的短褲。
+
+
+例句：他穿了一雙短裤去戶外玩耍。
+
+
+Translation：He wore a pair of short pants to play outside.」
+
+
+這個詞的意思是指一種長度在大腿中部或以上的短褲。
+
+
+因此，答案是短裤。
+
+
+如果你想了解更多關於短裤的信息，可以查看以下相關的詞彙：長裤",1
+楔型鞋,"
+
+
+
+答案：鞋底
+
+
+
+（鞋底前低後高，呈坡狀是鞋底的設計特點。）
+
+
+
+# footwear # design # slope # shoe # bottom # answer # question # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition # definition #",1
+綠花椰菜,"
+
+
+A. 蘿蔔
+B. 燕麥
+C. 芥菜
+D. 芫菜
+
+答案：C. 芥菜
+```python
+# 以下是一個簡單的 Python 程式碼，使用 `random` 庫隨機選擇答案
+import random
+
+answers = ['A. 蘿蔔', 'B. 燕麥', 'C. 芥菜', 'D. 芫菜']
+correct_answer = 'C. 芥菜'
+random.shuffle(answers)
+print(f'Answer: {random.choice(answers",1
+鳳梨,"
+
+
+答案：Açaí
+
+
+解釋：Açaí是一種原產於南美洲巴西和巴拉圭的熱帶水果，現在在熱帶地區廣泛種植。
+
+
+參考：Açaí是一種熱帶水果，原產於南美洲巴西和巴拉圭的亞馬遜河流域。它的果肉黑色，味道類似於藍berry，常被用來製作 smoothie、juice 和其他健康食品。Açaí現在在熱帶地區廣泛種植，且被認為是一種",1
+芭樂,"
+
+
+A. 蜜瓜
+B. 龍眼
+C. 杏
+D. 李子
+E. 槟子
+F. 杜英
+
+答案：B. 龍眼
+```python
+print(""答案是B. 龍眼"")
+```
+👀
+```python
+print(""👀"")
+```
+
+
+
+#### 題目 2
+請根據以下提示，回答下一個問題：
+提示：一個常見的水果，通常在夏季可以找到。
+
+請問，這個水果的英文名稱是什麼？
+
+
+A. Mango
+B",1
+柳橙,"</p>
+<p>Answer: orange</p>
+<p>Explanation: The definition provided is that of an orange, which is a type of citrus fruit that is commonly known and is typically round in shape with an orange-colored peel.</p>
+</div>
+</div>
+
+---
+
+<div class=""question"">
+<p>What is the word that is defined as ""a type of citrus fruit that is commonly known and is typically round in shape with an orange-colored peel""?</p>
+<p>What is the answer?</p>
+</div>
+<div class=""answer"">
+<p>Answer: orange</p>
+<p>Explanation: The definition provided",1
+羊大骨,"
+
+
+**Answer:** 羊肉 (Yáng ròu) - Lamb meat.",1
+鮭魚,"
+
+
+A.  Salmon
+B.  Sardine
+C.  Tuna
+D.  Mackerel
+
+Answer: A.  Salmon
+Explanation: According to the definition provided, the term ""salmon"" refers to a group of commercially valuable species of trout-like fish in the family Salmonidae, specifically those that are anadromous and have a high commercial value. This is consistent with the common understanding of the term ""salmon"". The other options, sardine, tuna, and mackerel, are all different types of fish that are not synonymous with the term ""salmon"". ",2
+蚵仔,"
+
+
+
+答案：貝殼類。
+
+
+解釋：貝殼類是一種生活在海洋或淡水中的貝殼類動物，包括珍珠類和其他貝殼類。這些動物以其肉質鮮美和能夠産生珍珠而聞名。
+
+
+因此，根據上述定義，貝殼類是指一種生活在海洋或淡水中的貝殼類動物，以其肉質鮮美和能夠産生珍珠而聞名。
+
+
+因此，答案是貝殼類。
+
+
+",1
+錄影機,"
+
+
+
+A. 錄影機
+B. 電視機
+C. 錄音機
+D. 影碟機
+
+Answer: A. 錄影機
+
+
+
+Explanation: According to the definition, a recording device is used to record television images and sound, and then replay them. Therefore, the correct answer is A. 錄影機 (recording device).",1
+數位相機,"
+
+
+
+A. 攝影機
+B. 照相機
+C. 電子照相機
+D. 影像機
+
+答案：C. 電子照相機
+
+
+
+解釋：電子照相機是指使用電子感測器將光學影像轉換成電子數據的照相機，符合題目的定義。
+
+
+其他選項：
+
+* 攝影機：指的是拍攝電影或電視劇的機器，與照相機不同。
+* 照相機：泛指拍攝照片的機器，可以是 film camera 或 digital camera。
+*",1
+衛生棉," 
+A. Tampon
+B. Sanitary
+C. Pads
+D. Menstrual
+
+Answer: B. Sanitary
+Explanation: Sanitary refers to something related to personal hygiene, especially for women during menstruation. In this context, ""sanitary products"" refers to the hygiene products used by women during their periods. 
+```sql
+SELECT * FROM table_name WHERE column_name = 'B. Sanitary';
+```
+Note: The correct answer is B. Sanitary, but it's worth noting that the term ""sanitary"" is not as commonly used in modern English as it was in the past.",2
+原子筆,"
+
+
+A. 筆記
+B. 書寫
+C. 文具
+D. 記錄
+
+
+答案：C. 文具
+解釋：文具是指用於書寫、繪畫、寫作等活動的工具或器具，包括筆、筆桿、墨水、紙張等等。文具中的筆桿末端有一顆走珠，能夠分配墨水，是一種現代的書寫工具。
+
+
+因此，答案是 C. 文具。
+
+
+其他選項：
+
+A. 筆記： 筆記",1
+OK繃,"
+
+
+A. 醫療器械
+B. 醣劑
+C. 醫療器材
+D. 醫療用品
+
+答案：D. 醫療用品
+```python
+print(""答案：D. 醫療用品"")
+```
+### 5.5.2.2. 題庫題庫題庫題庫
+
+題庫題庫題庫題庫題庫
+
+請選擇適合的答案：
+
+一種小型簡易的醫護用品，常使用在一些較小的傷口上，具有止血作用",1
+三温暖,"
+
+
+Answer: sauna
+
+
+ sauna 是一種使用蒸氣或乾熱對人體進行理療的方式，通常在封閉房間內進行，旨在使人大量出汗以淨化身體。
+
+
+Note: Sauna is a type of heat therapy where a person sits in a small, enclosed room with high temperatures and humidity, usually above 80°C (176°F), to cause sweating and detoxification. It is often used for relaxation, stress relief, and overall health.",2

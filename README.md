@@ -81,7 +81,7 @@ These datasets contain the prompts of the regional term choice task. `prompt_id`
 
 * `prompt/regional_name/{language}_{prompt_id}.csv`
 
-These datasets contain the prompts of the regional name choice task. `prompt_id` represents the research questions in Section 4. `prompt_id_1`: Section 4.1, `prompt_id_2`: Section 4.3.1, `prompt_id_3`: Section 4.4.
+These datasets contain the prompts of the regional name choice task. `prompt_id` represents the research questions in Section 4. `prompt_id_0`: Section 4.1, `prompt_id_1`: Section 4.3.1, `prompt_id_2`: Section 4.6, `prompt_id_3`: Section 4.4, `prompt_id_4`: Section 4.5.
 
 
 ## Datasets We Used to Create Our Prompts

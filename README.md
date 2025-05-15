@@ -240,6 +240,10 @@ python -m reproducibility.tab_31 --llm baichuan2 --name_example
 python -m reproducibility.tab_31 --llm qwen --name_example
 ```
 
+### Table 34
+```bash
+python -m reproducibility.tab_34
+```
 
 ## Citation
 ```

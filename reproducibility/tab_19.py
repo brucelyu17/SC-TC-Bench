@@ -3,7 +3,7 @@ from utils import ModelCardDict
 
 if __name__ == '__main__':
     model_latex_dict = ModelCardDict().model_latex_dict
-    models = ['qwen', 'baichuan2','chatglm2', 'breeze', 'taiwan-llm', 'ds','gpt4o','gpt4', 'gpt3.5', 'llama3-70b', 'llama3']
+    models = ['qwen', 'baichuan2','chatglm2', 'breeze', 'taiwan-llm', 'ds','gpt4o','gpt4', 'gpt3.5', 'llama3-70b', 'llama3-8b']
     langs = ['simplified', 'traditional']
 
     for model in models:

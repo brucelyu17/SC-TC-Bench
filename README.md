@@ -108,6 +108,27 @@ This dataset includes all 110 regional terms, along with their definitions and t
 This dataset includes all 352 regional names, along with their population-based popularity decile assignments and their gender labels---predicted for Mainland Chinese names and reported for Taiwanese names.
 
 
+## Requirements
+
+* Clone this repository
+```bash
+git clone https://github.com/brucelyu17/SC-TC-Bench.git
+```
+
+* Create a conda virtual environment and activate it
+```bash
+conda create -n sc-tc-bench python=3.10
+source activate sc-tc-bench
+```
+
+* Install packages
+```bash
+pip install -r requirements.txt
+```
+
+* To run inference with ChtGLM2, install `transformers==4.40.0`
+
+
 ## Reproducibility
 
 ### Figure 2

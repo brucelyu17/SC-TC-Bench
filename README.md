@@ -15,6 +15,15 @@ Will also be presented at [IC2S2 2025](https://www.ic2s2-2025.org/)
 - [Prompts of Our Benchmark Dataset](#prompts-of-our-benchmark-dataset)
 - [Datasets We Used to Create Our Prompts](#datasets-we-used-to-create-our-prompts)
 - [Reproducibility](#reproducibility)
+    - [Figure 2](#figure-2)
+    - [Figure 3](#figure-3)
+    - [Figure 4](#figure-4)
+    - [Figure 5](#figure-5)
+    - [Figure 7](#figure-7)
+    - [Figure 8](#figure-8)
+    - [Figure 10](#figure-10)
+    - [Figure 11](#figure-11)
+    - [Table 2 & 21](#table-2--21)
 - [Citation](#citation)
 
 ## Example Usage
@@ -65,47 +74,47 @@ This dataset includes all 352 regional names, along with their population-based 
 
 ## Reproducibility
 
-* Figure 2
+### Figure 2
 ```bash
 python -m reproducibility.fig_2 --prompt_id 1
 ```
 
-* Figure 3
+### Figure 3
 ```bash
 python -m reproducibility.fig_3 --prompt_id 0
 ```
 
-* Figure 4
+### Figure 4
 ```bash
 python -m reproducibility.fig_3 --prompt_id 2 --arrow
 ```
 
-* Figure 5
+### Figure 5
 ```bash
 python -m reproducibility.fig_2 --prompt_id 1 --no_gpt
 ```
 
-* Figure 7
+### Figure 7
 ```bash
 python -m reproducibility.fig_2 --prompt_id 2
 ```
 
-* Figure 8
+### Figure 8
 ```bash
 python -m reproducibility.fig_2 --prompt_id 3
 ```
 
-* Figure 10
+### Figure 10
 ```bash
 python -m reproducibility.fig_3 --prompt_id 1
 ```
 
-* Figure 11
+### Figure 11
 ```bash
 python -m reproducibility.fig_3 --prompt_id 3 --arrow
 ```
 
-* Table 2 & 21
+### Table 2 & 21
 ```bash
 python -m reproducibility.tab_2
 ```

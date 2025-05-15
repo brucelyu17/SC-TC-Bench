@@ -317,7 +317,7 @@ class ModelCardDict(object):
             "qwen3-32b": "{\\qwenthree}"
         }
 
-def sig_sign(pval):
+def sig_sign(pval, no_ns=False):
     if pval < 0.05 and pval >=0.01:
         return '*'
     elif pval < 0.01 and pval >=0.001:
@@ -325,4 +325,7 @@ def sig_sign(pval):
     elif pval < 0.001:
         return '***'
     else:
-        return 'NS'
+        if no_ns:
+            return ''
+        else:
+            return 'NS'

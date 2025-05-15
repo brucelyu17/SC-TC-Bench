@@ -34,6 +34,12 @@ Will also be presented at [IC2S2 2025](https://www.ic2s2-2025.org/)
     - [Table 20](#table-20)
     - [Table 22](#table-22)
     - [Table 23](#table-23)
+    - [Table 24](#table-24)
+    - [Table 25](#table-25)
+    - [Table 26](#table-26)
+    - [Table 27](#table-27)
+    - [Table 28](#table-28)
+    - [Table 29](#table-29)
     - [Table 30](#table-30)
 - [Citation](#citation)
 
@@ -178,6 +184,36 @@ python -m reproducibility.tab_22
 ### Table 23
 ```bash
 python -m reproducibility.tab_23
+```
+
+### Table 24
+```bash
+python -m reproducibility.tab_24 --lang simplified --overall
+```
+
+### Table 25
+```bash
+python -m reproducibility.tab_24 --lang traditional --overall
+```
+
+### Table 26
+```bash
+python -m reproducibility.tab_24 --lang english --overall
+```
+
+### Table 27
+```bash
+python -m reproducibility.tab_24 --lang simplified --gender
+```
+
+### Table 28
+```bash
+python -m reproducibility.tab_24 --lang traditional --gender
+```
+
+### Table 29
+```bash
+python -m reproducibility.tab_24 --lang english --gender
 ```
 
 ### Table 30

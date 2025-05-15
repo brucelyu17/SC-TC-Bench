@@ -70,6 +70,16 @@ This dataset includes all 352 regional names, along with their population-based 
 python -m reproducibility.fig_2 --prompt_id 1
 ```
 
+* Figure 3
+```bash
+python -m reproducibility.fig_3 --prompt_id 0
+```
+
+* Figure 4
+```bash
+python -m reproducibility.fig_3 --prompt_id 2 --arrow
+```
+
 * Figure 5
 ```bash
 python -m reproducibility.fig_2 --prompt_id 1 --no_gpt
@@ -85,6 +95,15 @@ python -m reproducibility.fig_2 --prompt_id 2
 python -m reproducibility.fig_2 --prompt_id 3
 ```
 
+* Figure 10
+```bash
+python -m reproducibility.fig_3 --prompt_id 1
+```
+
+* Figure 11
+```bash
+python -m reproducibility.fig_3 --prompt_id 3 --arrow
+```
 
 
 ## Citation

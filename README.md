@@ -24,6 +24,8 @@ Will also be presented at [IC2S2 2025](https://www.ic2s2-2025.org/)
     - [Figure 10](#figure-10)
     - [Figure 11](#figure-11)
     - [Table 2 & 21](#table-2--21)
+    - [Table 11](#table-11)
+    - [Table 13](#table-13)
 - [Citation](#citation)
 
 ## Example Usage
@@ -117,6 +119,16 @@ python -m reproducibility.fig_3 --prompt_id 3 --arrow
 ### Table 2 & 21
 ```bash
 python -m reproducibility.tab_2
+```
+
+### Table 11
+```bash
+python -m reproducibility.tab_11 --once
+```
+
+### Table 13
+```bash
+python -m reproducibility.tab_11
 ```
 
 

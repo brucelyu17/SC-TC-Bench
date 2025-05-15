@@ -236,8 +236,8 @@ python -m reproducibility.tab_30 --llm qwen
 
 ### Table 33
 ```bash
-python -m reproducibility.tab_30 --llm baichuan2 --name_example
-python -m reproducibility.tab_30 --llm qwen --name_example
+python -m reproducibility.tab_31 --llm baichuan2 --name_example
+python -m reproducibility.tab_31 --llm qwen --name_example
 ```
 
 

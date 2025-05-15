@@ -22,6 +22,7 @@ Will also be presented at [IC2S2 2025](https://www.ic2s2-2025.org/)
     - [Figure 6](#figure-6)
     - [Figure 7](#figure-7)
     - [Figure 8](#figure-8)
+    - [Figure 9](#figure-9)
     - [Figure 10](#figure-10)
     - [Figure 11](#figure-11)
     - [Table 2 & 21](#table-2--21)
@@ -110,6 +111,11 @@ python -m reproducibility.fig_2 --prompt_id 2
 ### Figure 8
 ```bash
 python -m reproducibility.fig_2 --prompt_id 3
+```
+
+### Figure 9
+```bash
+python -m reproducibility.fig_9
 ```
 
 ### Figure 10

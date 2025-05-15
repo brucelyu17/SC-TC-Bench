@@ -316,3 +316,13 @@ class ModelCardDict(object):
             "llama3-8b": "{\\llamae}",
             "qwen3-32b": "{\\qwenthree}"
         }
+
+def sig_sign(pval):
+    if pval < 0.05 and pval >=0.01:
+        return '*'
+    elif pval < 0.01 and pval >=0.001:
+        return '**'
+    elif pval < 0.001:
+        return '***'
+    else:
+        return 'NS'

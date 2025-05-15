@@ -41,6 +41,9 @@ Will also be presented at [IC2S2 2025](https://www.ic2s2-2025.org/)
     - [Table 28](#table-28)
     - [Table 29](#table-29)
     - [Table 30](#table-30)
+    - [Table 31](#table-31)
+    - [Table 32](#table-32)
+    - [Table 33](#table-33)
 - [Citation](#citation)
 
 ## Example Usage
@@ -219,6 +222,22 @@ python -m reproducibility.tab_24 --lang english --gender
 ### Table 30
 ```bash
 python -m reproducibility.tab_30
+```
+
+### Table 31
+```bash
+python -m reproducibility.tab_30 --llm baichuan2
+```
+
+### Table 32
+```bash
+python -m reproducibility.tab_30 --llm qwen
+```
+
+### Table 33
+```bash
+python -m reproducibility.tab_30 --llm baichuan2 --name_example
+python -m reproducibility.tab_30 --llm qwen --name_example
 ```
 
 

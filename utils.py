@@ -302,6 +302,20 @@ def collect_response_details(df, df_gt):
 
 class ModelCardDict(object):
     def __init__(self) -> None:
+        self.model_card_dict = {
+            "qwen": "Qwen/Qwen1.5-7B-Chat",
+            "baichuan2": "baichuan-inc/Baichuan2-7B-Chat",
+            "chatglm2": "THUDM/chatglm2-6b",
+            "breeze": "MediaTek-Research/Breeze-7B-Instruct-v1_0",
+            "taiwan-llm": "yentinglin/Taiwan-LLaMa-v1.0",
+            "ds": "deepseek-ai/DeepSeek-R1",
+            "gpt4o": "gpt-4o-2024-05-13",
+            "gpt4": "gpt-4",
+            "gpt3.5": "gpt-3.5-turbo",
+            "llama3-70b": "meta-llama/Meta-Llama-3-70B-Instruct",
+            "llama3-8b": "meta-llama/Meta-Llama-3-8B-Instruct",
+            "qwen3-32b": "Qwen/Qwen3-32B"
+        }
         self.model_latex_dict = {
             "qwen": "{\\qwen}",
             "baichuan2": "{\\baichuan}",

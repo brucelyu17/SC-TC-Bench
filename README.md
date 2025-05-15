@@ -46,6 +46,7 @@ Will also be presented at [IC2S2 2025](https://www.ic2s2-2025.org/)
     - [Table 33](#table-33)
     - [Table 34](#table-34)
     - [Table 36](#table-36)
+    - [Table 37](#table-37)
 - [Citation](#citation)
 
 ## Example Usage
@@ -250,6 +251,11 @@ python -m reproducibility.tab_34
 ### Table 36
 ```bash
 python -m reproducibility.tab_36
+```
+
+### Table 37
+```bash
+python -m reproducibility.tab_37
 ```
 
 ## Citation

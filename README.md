@@ -29,6 +29,7 @@ Will also be presented at [IC2S2 2025](https://www.ic2s2-2025.org/)
     - [Table 11](#table-11)
     - [Table 13](#table-13)
     - [Tables 14-17](#tables-14-17)
+    - [Table 18](#table-18)
 - [Citation](#citation)
 
 ## Example Usage

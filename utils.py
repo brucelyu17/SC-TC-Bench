@@ -299,3 +299,20 @@ def collect_response_details(df, df_gt):
     counts = counts[['label_counts']].reset_index()
 
     return pd.merge(df_gt.loc[:109][['gt']], counts, on='gt')
+
+class ModelCardDict(object):
+    def __init__(self) -> None:
+        self.model_latex_dict = {
+            "qwen": "{\\qwen}",
+            "baichuan2": "{\\baichuan}",
+            "chatglm2": "{\\chatglm}",
+            "breeze": "{\\breeze}",
+            "taiwan-llm": "{\\taiwanllm}",
+            "ds": "{\\dsf}",
+            "gpt4o": "{\\gptivo}",
+            "gpt4": "{\\gptiv}",
+            "gpt3.5": "{\\gptiii}",
+            "llama3-70b": "{\\llamas}",
+            "llama3": "{\\llamae}",
+            "qwen3-32b": "{\\qwenthree}"
+        }

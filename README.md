@@ -149,6 +149,11 @@ python -m reproducibility.tab_11
 python -m reproducibility.fig_2 --prompt_id 1
 ```
 
+### Table 18
+```bash
+python -m reproducibility.tab_18
+```
+
 
 ## Citation
 ```

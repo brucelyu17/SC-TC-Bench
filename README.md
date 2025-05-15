@@ -34,6 +34,7 @@ Will also be presented at [IC2S2 2025](https://www.ic2s2-2025.org/)
     - [Table 20](#table-20)
     - [Table 22](#table-22)
     - [Table 23](#table-23)
+    - [Table 30](#table-30)
 - [Citation](#citation)
 
 ## Example Usage
@@ -177,6 +178,11 @@ python -m reproducibility.tab_22
 ### Table 23
 ```bash
 python -m reproducibility.tab_23
+```
+
+### Table 30
+```bash
+python -m reproducibility.tab_30
 ```
 
 

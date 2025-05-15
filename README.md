@@ -248,6 +248,11 @@ python -m reproducibility.tab_31 --llm qwen --name_example
 python -m reproducibility.tab_34
 ```
 
+### Table 35
+```bash
+python -m reproducibility.tab_35
+```
+
 ### Table 36
 ```bash
 python -m reproducibility.tab_36

@@ -70,6 +70,18 @@ python infer.py --llm qwen --task name --lang traditional --prompt_id 1
 python infer.py --llm llama3-70b --task name --lang english --prompt_id 1
 ```
 
+* Use GPT-4o-mini to annotate the result of Qwen on the regional term task when prompted in English and the prompt_id is 2
+
+```bash
+python gpt_eval.py --llm qwen --lang english --task term --prompt_id 2
+```
+
+* Use GPT-4o-mini to annotate the result of Breeze on the regional name task when prompted in Traditional Chinese and the prompt_id is 1
+
+```bash
+python gpt_eval.py --llm breeze --lang traditional --task name --prompt_id 1
+```
+
 ## Prompts of Our Benchmark Dataset
 
 ### Regional Term Choice

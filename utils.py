@@ -313,6 +313,6 @@ class ModelCardDict(object):
             "gpt4": "{\\gptiv}",
             "gpt3.5": "{\\gptiii}",
             "llama3-70b": "{\\llamas}",
-            "llama3": "{\\llamae}",
+            "llama3-8b": "{\\llamae}",
             "qwen3-32b": "{\\qwenthree}"
         }

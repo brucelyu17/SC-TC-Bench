@@ -279,3 +279,10 @@ def label_response(df_gpt_correct, oppo):
                 group = 0
         res.append(group)   
     return res
+
+
+def compute_percentage(df):
+    mc = len(df[df['region'] == 1]) / len(df)
+    t = len(df[df['region'] == 0]) / len(df)
+    na = len(df[df['region'] == -1]) / len(df)
+    return mc, t, na

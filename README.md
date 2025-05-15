@@ -44,6 +44,8 @@ Will also be presented at [IC2S2 2025](https://www.ic2s2-2025.org/)
     - [Table 31](#table-31)
     - [Table 32](#table-32)
     - [Table 33](#table-33)
+    - [Table 34](#table-34)
+    - [Table 35](#table-35)
 - [Citation](#citation)
 
 ## Example Usage
@@ -243,6 +245,11 @@ python -m reproducibility.tab_31 --llm qwen --name_example
 ### Table 34
 ```bash
 python -m reproducibility.tab_34
+```
+
+### Table 35
+```bash
+python -m reproducibility.tab_35
 ```
 
 ## Citation

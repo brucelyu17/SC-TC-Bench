@@ -64,7 +64,7 @@ To investigate potential LLM performance disparities, we design **two benchmark 
 ![Alt text](prompt.png)
 
 For both tasks, we audit the performance of **11 leading commercial LLM services and open-sourced models**---spanning those primarily trained on English, Simplified Chinese, or Traditional Chinese. 
-Our qualitative analyses indicate that biases in LLM responses are dependent on both the task and prompting language: while most LLMs disproportionately favored Simplified Chinese responses in the regional term choice task, they surprisingly favored Traditional Chinese names in the regional name choice task. 
+Our analyses indicate that biases in LLM responses are dependent on both the task and prompting language: while most LLMs disproportionately favored Simplified Chinese responses in the regional term choice task, they surprisingly favored Traditional Chinese names in the regional name choice task. 
 We find that these disparities may arise from differences in **training data representation, written character preferences, and tokenization** of Simplified and Traditional Chinese.
 
 

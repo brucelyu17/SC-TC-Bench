@@ -11,6 +11,7 @@ Accepted for publication in [FAccT 2025](https://facctconference.org/2025/)
 Will also be presented at [IC2S2 2025](https://www.ic2s2-2025.org/)
 
 ## Table of Contents
+- [Introduction](#introduction)
 - [Example Usage](#example-usage)
 - [Prompts of Our Benchmark Dataset](#prompts-of-our-benchmark-dataset)
 - [Datasets We Used to Create Our Prompts](#datasets-we-used-to-create-our-prompts)
@@ -50,6 +51,22 @@ Will also be presented at [IC2S2 2025](https://www.ic2s2-2025.org/)
     - [Table 36](#table-36)
     - [Table 37](#table-37)
 - [Citation](#citation)
+
+## Introduction
+
+While the capabilities of Large Language Models (LLMs) have been studied in both Simplified and Traditional Chinese, it is yet unclear whether LLMs exhibit differential performance when prompted in these two variants of written Chinese. 
+This understanding is critical, as disparities in the quality of LLM responses can perpetuate representational harms by ignoring the different cultural contexts underlying Simplified versus Traditional Chinese, and can exacerbate downstream harms in LLM-facilitated decision-making in domains such as education or hiring. 
+
+![Alt text](example.png)
+
+To investigate potential LLM performance disparities, we design **two benchmark tasks** that reflect real-world scenarios: regional term choice (prompting the LLM to name a described item which is referred to differently in Mainland China and Taiwan), and regional name choice (prompting the LLM to choose who to hire from a list of names in both Simplified and Traditional Chinese).
+
+![Alt text](prompt.png)
+
+For both tasks, we audit the performance of **11 leading commercial LLM services and open-sourced models**---spanning those primarily trained on English, Simplified Chinese, or Traditional Chinese. 
+Our qualitative analyses indicate that biases in LLM responses are dependent on both the task and prompting language: while most LLMs disproportionately favored Simplified Chinese responses in the regional term choice task, they surprisingly favored Traditional Chinese names in the regional name choice task. 
+We find that these disparities may arise from differences in **training data representation, written character preferences, and tokenization** of Simplified and Traditional Chinese.
+
 
 ## Example Usage
 

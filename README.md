@@ -8,7 +8,7 @@
 
 Accepted for publication in [FAccT 2025](https://facctconference.org/2025/)
 
-Will also be presented at [IC2S2 2025](https://www.ic2s2-2025.org/)
+Will also be presented at [IC2S2 2025](https://www.ic2s2-2025.org/) as a Parallel Talk
 
 ## Table of Contents
 - [Introduction](#introduction)

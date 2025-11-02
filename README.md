@@ -4,7 +4,7 @@
 
 <sup>1</sup> University of Rochester
 
-<sup>2</sup> Cornell Tech
+<sup>2</sup> Cornell University
 
 Accepted for publication in [FAccT 2025](https://facctconference.org/2025/)
 
